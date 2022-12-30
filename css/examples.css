@@ -1,0 +1,595 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.popup-overlay {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.rectangle-div15 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #079f5a;
+  width: 1440px;
+  height: 540px;
+}
+.image-3-icon1 {
+  position: absolute;
+  top: 73px;
+  left: 730px;
+  border-radius: 10px;
+  width: 670px;
+  height: 394px;
+  object-fit: cover;
+}
+.featured-samples-gallery1 {
+  position: relative;
+  line-height: 60px;
+  font-weight: 500;
+  display: inline-block;
+  width: 619px;
+}
+.check-out-the-featured-samples1 {
+  position: relative;
+  font-size: 18px;
+  line-height: 22px;
+  display: inline-block;
+  width: 619px;
+}
+.frame-div30 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.analyze-now-div1 {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+  display: inline-block;
+}
+.primary-big-button1 {
+  border-radius: 30px;
+  background-color: #fff;
+  flex-direction: row;
+  padding: 16px 40px;
+  box-sizing: border-box;
+}
+.frame-div29,
+.primary-big-button,
+.primary-big-button1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.primary-big-button {
+  border-radius: 30px;
+  flex-direction: row;
+  font-size: 20px;
+  color: #079f5a;
+}
+.frame-div29 {
+  position: absolute;
+  top: calc(50% - 145px);
+  left: 40px;
+  flex-direction: column;
+  gap: 50px;
+}
+.group-div19 {
+  position: absolute;
+  top: 168px;
+  left: 0;
+  width: 1440px;
+  height: 540px;
+  font-size: 56px;
+  color: #fff;
+}
+.line-div1,
+.line-div2 {
+  position: absolute;
+  left: 39px;
+  border-top: 2px solid #079f5a;
+  box-sizing: border-box;
+  width: 212px;
+  height: 2px;
+}
+.line-div2 {
+  left: 269px;
+  width: 1131px;
+}
+.all-div {
+  color: #079f5a;
+}
+.all-div,
+.it-help-desk {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+  display: inline-block;
+  width: 210px;
+}
+.frame-div31 {
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 15px;
+  color: #777;
+}
+.rectangle-div16 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  background-color: #fff;
+  width: 363px;
+  height: 363px;
+}
+.the-new-oil-episode-1-the-st9 {
+  position: absolute;
+  top: 271px;
+  left: 20px;
+  line-height: 24px;
+  font-weight: 500;
+  display: inline-block;
+}
+.rectangle-icon9 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px 10px 0 0;
+  width: 363px;
+  height: 251px;
+  object-fit: cover;
+}
+.group-div20flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.group-div20 {
+  position: relative;
+  top: 20px;
+  left: 270px;
+  width: 363px;
+  height: 363px;
+}
+
+
+
+.rectangle-div22 {
+  position: absolute;
+  top: 140px;
+  left: 1036px;
+  width: 363px;
+  height: 363px;
+}
+
+.rectangle-div22 {
+  top: 523px;
+}
+.rectangle-div22 {
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  width: 1440px;
+  height: 317px;
+}
+.platform-div4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 24px;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.frame-div32 {
+  position: absolute;
+  top: 34px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 5px;
+  font-size: 14px;
+  color: #171717;
+}
+
+.group-div28 {
+  position: absolute;
+  top: 70px;
+  left: 446px;
+  width: 142px;
+  height: 98px;
+}
+.group-div28 {
+  left: 1285px;
+  width: 86px;
+}
+.procurement-and-logistics2 {
+  position: relative;
+  line-height: 18px;
+  display: inline-block;
+  width: 148px;
+}
+.group-div29,
+.group-div30 {
+  position: absolute;
+  top: 70px;
+  left: 669px;
+  width: 148px;
+  height: 185px;
+}
+.group-div30 {
+  left: 898px;
+  width: 90px;
+  height: 144px;
+}
+.group-div31,
+.rectangle-div23 {
+  position: absolute;
+  top: 70px;
+  left: 1069px;
+  width: 135px;
+  height: 75px;
+}
+.rectangle-div23 {
+  top: 0;
+  left: 0;
+  background-color: #f3f3f3;
+  width: 1440px;
+  height: 50px;
+}
+.envato-elements-pty-ltd-trade1 {
+  position: absolute;
+  top: 16px;
+  left: 375px;
+  line-height: 18px;
+  display: inline-block;
+}
+.group-div32 {
+  position: absolute;
+  top: 317px;
+  left: 0;
+  width: 1440px;
+  height: 50px;
+  text-align: center;
+  font-size: 14px;
+}
+.group-div32,
+.smart-span2 {
+  color: #171717;
+}
+.qsmart-div2 {
+  position: absolute;
+  top: 70px;
+  left: 40px;
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 500;
+  display: inline-block;
+}
+.duis-lorem-pulvinar-faucibus-t1 {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  width: 295px;
+  flex-shrink: 0;
+}
+.frame-div37 {
+  position: absolute;
+  top: 140px;
+  left: 40px;
+  border-radius: 10px;
+  background-color: #f3f3f3;
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 16px;
+  color: #171717;
+}
+.group-div26,
+.view-more-div1 {
+  position: absolute;
+  color: #079f5a;
+}
+.group-div26 {
+  top: 1784px;
+  left: 0;
+  width: 1440px;
+  height: 367px;
+}
+.view-more-div1 {
+  top: 1644px;
+  left: 775px;
+  font-size: 16px;
+  text-decoration: underline;
+  line-height: 20px;
+  font-weight: 500;
+  text-align: center;
+  display: inline-block;
+}
+.rectangle-div24 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+}
+.platform-div5 {
+  position: relative;
+  line-height: 18px;
+  color: #079f5a;
+  display: inline-block;
+}
+.analytics-dashboard-div3,
+.div3 {
+  position: relative;
+  line-height: 18px;
+  display: none;
+}
+.analytics-dashboard-div3 {
+  color: #079f5a;
+}
+.frame-div38 {
+  position: absolute;
+  height: 37.5%;
+  top: 31.25%;
+  bottom: 31.25%;
+  left: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 5px;
+}
+.group-div33,
+.rectangle-div25 {
+  position: absolute;
+  height: 28.57%;
+  width: 100%;
+  top: 71.43%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.rectangle-div25 {
+  height: 71.43%;
+  top: 0;
+  bottom: 28.57%;
+  background-color: #fff;
+  border-top: 0 solid #eaeaea;
+  border-right: 0 solid #eaeaea;
+  border-bottom: 1px solid #eaeaea;
+  border-left: 0 solid #eaeaea;
+  box-sizing: border-box;
+}
+.platform-div7,
+.qsmart-div3 {
+  position: absolute;
+  font-weight: 500;
+  display: inline-block;
+}
+.qsmart-div3 {
+  height: 23.81%;
+  width: 10.63%;
+  top: 23.81%;
+  right: 86.6%;
+  bottom: 52.38%;
+  left: 2.78%;
+  font-size: 40px;
+  line-height: 40px;
+  cursor: pointer;
+  color: #079f5a;
+}
+.platform-div7 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  line-height: 24px;
+}
+.platform-div6 {
+  width: 88px;
+}
+.platform-div6,
+.resources-div2,
+.solutions-div6 {
+  position: relative;
+  height: 24px;
+  flex-shrink: 0;
+}
+.solutions-div6 {
+  width: 93px;
+  color: #079f5a;
+}
+.resources-div2 {
+  width: 99px;
+}
+.frame-div39 {
+  position: absolute;
+  height: 14.29%;
+  width: 35.97%;
+  top: 28.57%;
+  right: 29.31%;
+  bottom: 57.14%;
+  left: 34.72%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 50px;
+  font-size: 20px;
+}
+.secondary-button-div1 {
+  border-radius: 30px;
+  background-color: #f3f3f3;
+  padding: 12px 30px;
+  box-sizing: border-box;
+}
+.frame-div40,
+.primary-button-div1,
+.secondary-button-div1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.primary-button-div1 {
+  border-radius: 30px;
+  background-color: #fff;
+  border: 2px solid #079f5a;
+  box-sizing: border-box;
+  position: relative;
+  padding: 12px 30px;
+  color: #079f5a;
+}
+.frame-div40 {
+  position: absolute;
+  height: 28.57%;
+  width: 21.46%;
+  top: 21.43%;
+  right: 2.78%;
+  bottom: 50%;
+  left: 75.76%;
+  gap: 20px;
+  font-size: 18px;
+}
+.header-div1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 168px;
+  font-size: 14px;
+}
+.general-div {
+  position: relative;
+  background-color: #f3f3f3;
+  width: 100%;
+  height: 2151px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 18px;
+  color: #171717;
+  font-family: "Mark Pro";
+}
+.sales-div {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+}
+.frame-div {
+  position: relative;
+  border-radius: 0 0 10px 10px;
+  background-color: #fff;
+  border-top: 0 solid #eaeaea;
+  border-right: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea;
+  border-left: 1px solid #eaeaea;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 14px;
+  max-width: 90%;
+  max-height: 90%;
+  overflow: auto;
+  text-align: left;
+  font-size: 16px;
+  color: #171717;
+  font-family: "Mark Pro";
+}
+@media (max-width: 900px) {
+.frame-div31 {
+    position: relative;
+     top: 0; 
+    left: 16px;
+    display: flex;
+    gap: 10px;
+    color: #777;
+    flex-direction: row;
+
+}
+.group-div20 {
+  position: relative;
+  top: 20px;
+  left: 16px;
+  width: 343px;
+  height: 295px;
+}
+.rectangle-div16 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  background-color: #fff;
+  width: 343px;
+  height: 295px;
+}
+.rectangle-icon9 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px 10px 0 0;
+  width: 343px;
+  height: 191px;
+  object-fit: cover;
+}
+.the-new-oil-episode-1-the-st9 {
+  position: absolute;
+  top: 203px;
+  width: 311px;
+  height: 72px;
+  left: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  display: inline-block;
+}
+.line-div1, .line-div2 {
+  display: none;
+}
+.all-div, .it-help-desk {
+  position: relative;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 450;
+  border-radius: 50px;
+  background-color: #fff;
+  border: 1px solid #079f5a;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  color: #079f5a;
+  cursor: pointer;
+  width: auto;
+}
+.group-div20flex {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+}
