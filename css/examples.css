@@ -16,7 +16,7 @@ body {
   top: 0;
   left: 0;
   background-color: #079f5a;
-  width: 1440px;
+  width: 100%;
   height: 540px;
 }
 .image-3-icon1 {
@@ -86,7 +86,7 @@ body {
   position: absolute;
   top: 168px;
   left: 0;
-  width: 1440px;
+  width: 100%;
   height: 540px;
   font-size: 56px;
   color: #fff;
@@ -183,7 +183,7 @@ body {
   top: 0;
   left: 0;
   background-color: #fff;
-  width: 1440px;
+  width: 100%;
   height: 317px;
 }
 .platform-div4 {
@@ -250,7 +250,7 @@ body {
   top: 0;
   left: 0;
   background-color: #f3f3f3;
-  width: 1440px;
+  width: 100%;
   height: 50px;
 }
 .envato-elements-pty-ltd-trade1 {
@@ -264,7 +264,7 @@ body {
   position: absolute;
   top: 317px;
   left: 0;
-  width: 1440px;
+  width: 100%;
   height: 50px;
   text-align: center;
   font-size: 14px;
@@ -312,7 +312,7 @@ body {
 .group-div26 {
   top: 1784px;
   left: 0;
-  width: 1440px;
+  width: 100%;
   height: 367px;
 }
 .view-more-div1 {
@@ -480,7 +480,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  width: 1440px;
+  width: 100%;
   height: 168px;
   font-size: 14px;
 }

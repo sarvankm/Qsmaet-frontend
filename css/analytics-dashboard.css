@@ -16,7 +16,7 @@ body {
   top: 168px;
   left: 0;
   background-color: #079f5a;
-  width: 1440px;
+  width: 100%;
   height: 540px;
 }
 .image-3-icon8 {
@@ -191,7 +191,7 @@ body {
 .rectangle-div185 {
   left: 0;
   background-color: #fff;
-  width: 1440px;
+  width: 100%;
   height: 769px;
 }
 .missing-something-special-wis4 {
@@ -310,7 +310,7 @@ body {
 .rectangle-div186 {
   position: absolute;
   left: 0;
-  width: 1440px;
+  width: 100%;
 }
 .group-div399 {
   top: 1652px;
@@ -390,7 +390,7 @@ body {
   top: 0;
   left: 0;
   background-color: #f3f3f3;
-  width: 1440px;
+  width: 100%;
   height: 50px;
 }
 .envato-elements-pty-ltd-trade15 {
@@ -404,7 +404,7 @@ body {
   position: absolute;
   top: 317px;
   left: 0;
-  width: 1440px;
+  width: 100%;
   height: 50px;
   text-align: center;
   font-size: 14px;
@@ -448,7 +448,7 @@ body {
   position: absolute;
   top: 3331px;
   left: 0;
-  width: 1440px;
+  width: 100%;
   height: 367px;
   color: #079f5a;
 }

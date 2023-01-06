@@ -1091,7 +1091,7 @@
  }
  @media (min-width: 1200px) {
    .container {
-     max-width: 1440px;
+     max-width: 100%;
    }
    .col-lg-1,
    .col-lg-2,
