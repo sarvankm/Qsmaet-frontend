@@ -1,413 +1,404 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="initial-scale=1, width=device-width" />
-    <title>Analytics Dashboard</title>
-    <meta name="description" content="" />
-
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/graph.css" />
-    <link rel="stylesheet" href="./css/flickity.css" />
-    <link rel="stylesheet" href="./css/bootstrap.min.css" type="text/css"/>
-    
-  </head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QSmart</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <link rel="stylesheet" href="sass/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
   <body>
-
-    <nav class="navbar navbar-inverse navbar-top" role="navigation">
-			<div class="container">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar-1">
-						<span class="sr-only">Toggle navigation</span>
-					</button>
-					
-				
-			
-					<a class="navbar-brand" href="index.html"></a>
-				</div>
-				
-
-				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse" id="top-navbar-1">
-					<ul class="nav navbar-nav navbar-right">
-						<li class="dropdown">
-              <a class="dropbtn">Platform</a>
-              <div class="dropdown-content">
-              <a href="analytics.html">Analytics Dashboard</a>
-              <a href="graphchart.html">Graph & Chart</a>
-              <a href="forecasting.html">Forecasting</a>
-              </div>
-              </li>
-              <li class="dropdown">
-                <a class="dropbtn">Solutions</a>
-                <div class="dropdown-content">
-                <a href="solutions.html?filename=tryhow_css_smooth_scroll#section1">Sales</a>
-                <a href="solutions.html?filename=tryhow_css_smooth_scroll#section2">Marketing</a>
-                <a href="solutions.html?filename=tryhow_css_smooth_scroll#section3">Education</a>
-                <a href="solutions.html?filename=tryhow_css_smooth_scroll#section4">Finance</a>
-                <a href="solutions.html?filename=tryhow_css_smooth_scroll#section5">Social Media</a>
-                <a href="solutions.html?filename=tryhow_css_smooth_scroll#section6">Procurement and Logistics</a>
-                </div>
-                </li>
-						
-						
-                <li class="dropdown">
-                  <a class="dropbtn">Resources</a>
-                  <div class="dropdown-content">
-                  <a href="blog.html">Blog</a>
-                  <a href="faq.html">FAQ</a>
-                  <a href="video.html">Video Demos</a>
-                  <a href="examples.html">Examples</a>
-                  <a href="support.html">Support</a>
-                  </div>
-                  </li>
-						
-                  <li class="dropdown">
-                    <a class="dropbtn">About us</a>
-                    <div class="dropdown-content">
-                    <a href="contacts.html">Contacts</a>
-                    </div>
-                    </li>
-            <div class="frame-div338">
-              <button class="primary-big-button10a">
-              <li class="secondary-button-div14">
-                <div class="analyze-now-div20">Log in</div>
-              </li>
-            </button>
-            <li></li>
-            <button class="primary-big-button10a" id="primaryBigButton">
-              <li class="primary-button-div14">
-                
-                <div class="analyze-now-div20">Analyze Now</div>
-              
-              </li>
-            </button>
-            </div>
-					</ul>
-				</div>
-			</div>
-		</nav>
-    <div class="navigation">
-      <div class=ei1_787_1_2336>
-        <div class="ei1_787_1_2337"></div>
-        <div class=ei1_787_1_2338><a class="ei1_787_1_2339" href="index.html">Home page</a><span  class="ei1_787_1_2340">/</span><span  class="ei1_787_1_2341">Platform</span><span  class="ei1_787_1_2342">/</span><span  class="ei1_787_1_2343">Analytics Dashboard</span></div>
-      </div>
-    </div>
-    <div class="group-div42567">
-      <div class="group-div27">
-        
-        <img class="image-3-icon" alt="" src="public/image-3@2x.png" />
-        <div class="frame-div6">
-          <div class="frame-div7">
-            <div class="analytics-dashboard-div2">Analytics Dashboard</div>
-            <div class="lorem-ipsum-dolor-sit-amet-co">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-              elementum placerat lectus morbi non sed blandit tempus sodales.
-              Faucibus.
-            </div>
-          </div>
-          <button class="primary-big-button" id="primaryBigButton">
-            <div class="primary-big-button1">
-              <div class="analyze-now-div">öz dashboard yarat</div>
-            </div>
+    <header>
+      <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+              <img src="image/Qsmart.png" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
           </button>
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 ">
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Platform
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="analytics.html">Analytics Dashboard</a></li>
+                    <li><a class="dropdown-item" href="Graph.html">Graph & Chart</a></li>
+                    <li><a class="dropdown-item" href="Forecasting.html">Forecasting</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="Solutions.html">Solutions</a>
+                </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Resources
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      About us
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+            </ul>
+            <form class="d-flex headBtns" role="search">
+              <button class="headBtn1"  type="submit">Log in</button>
+              <button  class="headBtn2"  type="submit">Analyze Now</button>
+            </form>
+          </div>
         </div>
-  
+      </nav>
+      <div class="window_location">
+          <h4>Home page / Platform / <span>Analytics Dashboard</span></h4>
       </div>
-         </div>
-   
-    <div class="main"> 
-      <div><div class="group-div7122">
-        <div class="flex-3"></div>
-        <div class="flex-4"></div>
-    </div></div>
-    <div class="group-div28">
-      <div class="rectangle-div8"></div>
-      <b class="meet-the-companies-transformin"
-        >Meet the companies transforming their experiences through
-        analytics</b
-      >
-    </div>    
-      <div class="second-div">
-        <div class="rectangle-div213"></div>
-        <b class="lorem-ipsum-dolor-sit11">Lorem ipsum dolor sit?</b>
-        <div class="group-div461a">
-          <div class="copy-your-data-from-the-web-e5">
-            Copy your data from the web, Excel, or Google Sheets. You can also
-            upload CSV/XLS files or link to a URL or Google Sheet for
-            live-updating charts.
-          </div>
-          <b class="copy-paste-your-data5">Copy & paste your data</b>
+      <div class="header_body_analytics">
+        <div class="header_text">
+          <h1>Analytics Dashboard</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc elementum placerat lectus morbi non sed blandit tempus sodales. Faucibus.</p>
+          <button>öz dashboard yarat</button>
         </div>
-        <img class="rectangle-icon35" alt="" src="public/rectangle-95@2x.png" />
-        <div class="group-div463a">
-          <div class="copy-your-data-from-the-web-e5">
-            Copy the responsive embed code into your CMS or website to show the
-            interactive chart, or export as a PNG, SVG, or PDF for printing.
-          </div>
-          <b class="copy-paste-your-data5">Embed or download</b>
-        </div>
-        <img class="rectangle-icon36" alt="" src="public/rectangle-95@2x.png" />
-        <div class="group-div465a">
-          <div class="copy-your-data-from-the-web-e5">
-            Choose from many chart and map types with one click. Then customize
-            and annotate your chart to make it more effective.
-          </div>
-          <b class="copy-paste-your-data5">Edit your chart</b>
-        </div>
-        <img class="rectangle-icon37" alt="" src="public/rectangle-95@2x.png" />
-        <div class="line-div50"></div>
-        <div class="line-div51"></div>
-        <div class="line-div52"></div>
-      </div>
-      <div class="secondblock">
-        <div class="group-div437">
-          <div class="missing-something-special-wis5">
-            Missing something? Special wishes? Tell us at hello@datawrapper.de.
-          </div>
-          <div class="groupmen">
-            <div class="icongroup">
-              <img class="line-doc-35" alt="" src="public/line--doc-32.svg" />
-              <div class="even-on">
-                Even on our free plan, there’s no limit to the number of charts,
-                maps, and tables you can create.
-              </div>
-              <div class="unlimited">
-                Unlimited visualizations
-              </div>
-            </div>
-            <div class="icongroup">
-              <img class="line-doc-35" alt="" src="public/line--database-55.svg" />
-              <div class="even-on">
-                No matter which plan you choose, all your visualizations and data
-                are private until you hit the “Publish” button.
-              </div>
-              <div class="unlimited">
-                Private by default
-              </div>
-            </div>
-            <div class="icongroup">
-              <img class="line-doc-35" alt="" src="public/line--board-15.svg" />
-              <div class="even-on">
-                On desktop devices, tablets, or smartphones — Datawrapper
-                visualizations are beautiful and readable everywhere.
-              </div>
-              <div class="unlimited">
-                Responsive
-              </div>
-            </div>
-            <div class="icongroup">
-              <img class="line-doc-35" alt="" src="public/line--chart-394.svg" />
-              <div class="even-on">
-                Make use of shared folders, Slack and Teams integration, and admin
-                permissions to see what your team is creating.
-              </div>
-              <div class="unlimited">
-                Collaborate in teams
-              </div>
-            </div>
-            <div class="icongroup">
-              <img class="line-doc-35" alt="" src="public/line--chart-34.svg" />
-              <div class="even-on">
-                Send us your style guide and we’ll create a custom chart theme for
-                your brand, 100% white-labeled.
-              </div>
-              <div class="unlimited">
-                Comes in your design
-              </div>
-            </div>
-            <div class="icongroup">
-              <img class="line-doc-35" alt="" src="public/line--doc-42.svg" />
-              <div class="even-on">
-                Export every visualization as PNG, SVG, or PDF and continue
-                working in, e.g., Adobe Illustrator.
-              </div>
-              <div class="unlimited">
-                PNG, SVG, PDF export
-              </div>
-            </div>
-            <div class="icongroup">
-              <img class="line-doc-35" alt="" src="public/line--cloud-93.svg" />
-              <div class="even-on">
-                All our visualizations can update themselves periodically. Simply
-                link to an external CSV or Google Sheet.
-              </div>
-              <div class="unlimited">
-                Live updating
-              </div>
-            </div>
-            <div class="icongroup">
-              <img class="line-doc-35" alt="" src="public/line--chart-385.svg" />
-              <div class="even-on">
-                Datawrapper visualizations scale to the largest audiences and
-                support even millions of viewers.
-              </div>
-              <div class="unlimited">
-                Works for big audiences
-              </div>
-            </div>
-            <div class="icongroup">
-              <img class="line-doc-35" alt="" src="public/line--doc-14.svg" />
-              <div class="even-on">
-                Even print-ready PDFs with defined CMYK colors are possible.
-              </div>
-              <div class="unlimited">
-                Print-ready graphics
-              </div>
-            </div>      
-          </div>
-          <b class="all-the-features-you-need-to-c5"
-            >All the features you need to create visualizations for your articles,
-            reports, or publications.</b
-          >
+        <div class="header_img">
+          <img src="image/analytics.png" alt="" />
         </div>
       </div>
-    <div class="slider">
-      <b class="lorem-ipsum-dolor-sit10">Lorem ipsum dolor sit</b>
-      <div class="datawrapper-lets-you-show-your9">
-        <p class="datawrapper-lets-you6">
-          Datawrapper lets you show your data as beautiful charts, maps or
-          tables with a few clicks. Find out
-        </p>
-        <p class="more-about-all6">
-          more about all the available visualization types.
-        </p>
+    </header>
+    <section>
+      <div class="analytics_skill">
+        <h2>Meet the companies transforming their experiences through analytics</h2>
       </div>
+    </section>
+    <main>
+      <section>
+        <div class="dataContainer">
+          <h2>Lorem ipsum dolor sit?</h2>
+          <div class="dataCards">
+            <div class="dataCard">
+              <div class="text">
+              
+                <div>
+                  <h3>Copy & paste your data</h3>
+                  <p>
+                    Copy your data from the web, Excel, or Google Sheets. You can also upload CSV/XLS files or link to a URL or Google Sheet for live-updating charts.
+                  </p>
+                </div>
+              </div>
+              <img src="image/dataImage.png" alt="" />
+            </div>
+            <hr />
+            <div class="dataCard">
+              <div class="text">
+               
+                <div>
+                  <h3>Edit your chart</h3>
+                  <p>
+                    Choose from many chart and map types with one click. Then customize and annotate your chart to make it more effective.
+                  </p>
+                </div>
+              </div>
+              <img src="image/dataImage.png" alt="" />
+            </div>
+            <hr />
+            <div class="dataCard">
+              <div class="text">
+               
+                <div>
+                  <h3>Embed or download</h3>
+                  <p>
+                    Copy the responsive embed code into your CMS or website to show the interactive chart, or export as a PNG, SVG, or PDF for printing.
+                  </p>
+                </div>
+              </div>
+              <img src="image/dataImage.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
-
-      <div class="gallery js-flickity"  data-flickity-options='{ "wrapAround": true }'>
-     
-
-      
-      <div class="group-div450">
-        <div class="rectangle-div207"></div>
-        <img class="image-2-icon13" alt="" src="public/image-25@2x.png" />
-        <div class="use-one-of-19-interactive-and15">
-          Use one of 19 interactive and responsive chart types ranging from
-          simple bars
-        </div>
-        <b class="analytics-dashboard9">Analytics Dashboard</b>
-      </div>
-      <div class="group-div451">
-        <div class="rectangle-div207"></div>
-        <img class="image-2-icon13" alt="" src="public/image-26@2x.png" />
-        <div class="use-one-of-19-interactive-and15">
-          Use one of 19 interactive and responsive chart types ranging from
-          simple bars
-        </div>
-        <b class="analytics-dashboard9">Analytics Dashboard</b>
-      </div>
-      <div class="group-div449">
-        <div class="rectangle-div207"></div>
-        <img class="image-2-icon13" alt="" src="public/image-24@2x.png" />
-        <div class="use-one-of-19-interactive-and15">
-          Use one of 19 interactive and responsive chart types ranging from
-          simple bars
-        </div>
-        <b class="analytics-dashboard9">Analytics Dashboard</b>
-      </div>
-      <div class="group-div450">
-        <div class="rectangle-div207"></div>
-        <img class="image-2-icon13" alt="" src="public/image-25@2x.png" />
-        <div class="use-one-of-19-interactive-and15">
-          Use one of 19 interactive and responsive chart types ranging from
-          simple bars
-        </div>
-        <b class="analytics-dashboard9">Analytics Dashboard</b>
-      </div>
-      <div class="group-div451">
-        <div class="rectangle-div207"></div>
-        <img class="image-2-icon13" alt="" src="public/image-26@2x.png" />
-        <div class="use-one-of-19-interactive-and15">
-          Use one of 19 interactive and responsive chart types ranging from
-          simple bars
-        </div>
-        <b class="analytics-dashboard9">Analytics Dashboard</b>
-      </div>
-      <div class="group-div449">
-        <div class="rectangle-div207"></div>
-        <img class="image-2-icon13" alt="" src="public/image-24@2x.png" />
-        <div class="use-one-of-19-interactive-and15">
-          Use one of 19 interactive and responsive chart types ranging from
-          simple bars
-        </div>
-        <b class="analytics-dashboard9">Analytics Dashboard</b>
-      </div>
-    </div>
-    </div>
-    <div class="footer-div">
-      <div class="footer">
-        <div class="footer-link">
-        <div class="group-div453">
-          <div class="platform-div53">Platform</div>
-          <div class="frame-div331">
-            <a class="analytics-dashboard-div38" href="analytics.html">Analytics Dashboard</a>
-            <a class="analytics-dashboard-div38" href="graphchart.html">Graph & Chart</a>
-            <a class="analytics-dashboard-div38" href="forecasting.html">Forecasting</a>
-          </div>
-        </div>
-        <div class="group-div453">
-          <div class="platform-div53">Solutions</div>
-          <div class="frame-div331">
-            <a class="analytics-dashboard-div38" href="solutions.html?filename=tryhow_css_smooth_scroll#section1">Sales</a>
-            <a class="analytics-dashboard-div38" href="solutions.html?filename=tryhow_css_smooth_scroll#section2">Marketing</a>
-            <a class="analytics-dashboard-div38" href="solutions.html?filename=tryhow_css_smooth_scroll#section3">Education</a>
-            <a class="analytics-dashboard-div38" href="solutions.html?filename=tryhow_css_smooth_scroll#section4">Finance</a>
-            <a class="analytics-dashboard-div38" href="solutions.html?filename=tryhow_css_smooth_scroll#section5">Social Media</a>
-            <a class="analytics-dashboard-div38" href="solutions.html?filename=tryhow_css_smooth_scroll#section6">Procurement and logistics</a>
-          </div>
-        </div>
-        <div class="group-div453">
-          <div class="platform-div53">Resources</div>
-          <div class="frame-div331">
-            <a class="analytics-dashboard-div38" href="blog.html">Blog</a>
-            <a class="analytics-dashboard-div38" href="faq.html">FAQ</a>
-            <a class="analytics-dashboard-div38" href="video.html">Video Demos</a>
-            <a class="analytics-dashboard-div38" href="examples.html">Examples</a>
-            <a class="analytics-dashboard-div38" href="support.html">Support</a>
-          </div>
-        </div>
-        <div class="group-div453">
-          <div class="platform-div53">About us</div>
-          <div class="frame-div331">
-            <a class="analytics-dashboard-div38" href="contacts.html">Contacts</a>
-            <a class="analytics-dashboard-div38" href="index.html">T: +994 77 445 33 45</a>
-            <a class="analytics-dashboard-div38" href="index.html">M: info@qsmart.az</a>
-          </div>
-        </div>
-        <div class="group-div453">
-          <div class="platform-div53">Follow Us</div>
-          <div class="frame-div331">
-            <a class="analytics-dashboard-div38" href="https://facebok.com">Facebook</a>
-              <a class="analytics-dashboard-div38" href="https://instagram.com">Instagram</a>
-                <a class="analytics-dashboard-div38" href="https://twitter.com">Twitter</a>
-          </div>
-        </div>
-        </div>
-        <div class="qsmart-div33" >
-
-            <a class="footer-brand" href="index.html"></a>
-   
-        <div class="frame-div336">
-          <div class="duis-lorem-pulvinar-faucibus-t12">
-            Duis lorem pulvinar faucibus turpis leo sit sapien. Integer nunc
-            consequat duis massa pharetra
-          </div>
-        </div>
-      </div>
     
-    </div>
-    <div class="footer-end">
-    <div class="reserved">
-      <div class="envato-elements-pty-ltd-trade16">
-        © 2022 QSmart all right reserved. Powered by Asif Designs.
-      </div>
-    </div>
-  </div>
-    </div>
+    <section>
+      <div class="section2">
+        <div class="section2Head">
+          <h2>
+            All the features you need to create visualizations for your
+            articles, reports, or publications.
+          </h2>
+          <p>
+            Missing something? Special wishes? Tell us at hello@datawrapper.de.
+          </p>
+        </div>
+        <div class="card9container">
+          <div class="sec2Card">
+            <svg
+              width="32"
+              height="32"
+              viewBox="0 0 32 32"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M23.8 14.0514L15.9 5.6001M23.8 14.0514H17.3C16.5268 14.0514 15.9 13.4246 15.9 12.6514V5.6001M23.8 14.0514V16.8001M15.9 5.6001H9.4C8.6268 5.6001 8 6.2269 8 7.0001V24.8001C8 25.5733 8.6268 26.2001 9.4 26.2001H20.1"
+                stroke="#079F5A"
+                stroke-width="2"
+                stroke-linecap="round"
+              />
+              <path
+                d="M28.9592 17.5224C28.9592 17.5224 25.9225 22.8353 23.7693 22.1338C22.2746 21.6468 20.7924 19.4848 19.2976 18.9978C17.1445 18.2963 14.7603 22.4344 14.7603 22.4344"
+                stroke="#079F5A"
+                stroke-width="2"
+                stroke-linecap="round"
+              />
+            </svg>
 
-      <script  src="./js/flickity.pkgd.js"></script>
-      <script src="./js/jquery-1.9.1.min.js"></script>
-      <script src="./js/bootstrap.min.js"></script>
-  </body>
+            <div class="text">
+              <h3>Unlimited visualizations</h3>
+              <p>Even on our free plan, there’s no limit to the number of charts, maps, and tables you can create.</p>
+            </div>
+          </div>
+          <div class="sec2Card">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M4.7998 10.2H21.3998V17.6H4.7998V10.2ZM23.3998 16.1144V9.59099L26.1998 6.55765V13.1977L23.3998 16.1144ZM9.21277 5H24.9158L21.962 8.2H6.08379L8.91885 5.12869C8.99457 5.04666 9.10113 5 9.21277 5ZM23.3998 19.0023L26.1998 16.0856V22.6201C26.1998 22.7262 26.1577 22.8279 26.0827 22.9029L23.3998 25.5858V19.0023ZM21.3998 19.6V27H5.19981C4.97889 27 4.7998 26.8209 4.7998 26.6V19.6H21.3998Z" stroke="#079F5A" stroke-width="2"/>
+                              <circle cx="8.2" cy="23.4002" r="1.2" fill="#079F5A"/>
+                              <circle cx="8.2" cy="15.2" r="1.2" fill="#079F5A"/>
+                              </svg>
+                              
+        
+                    <div class="text">
+                      <h3>Private by default</h3>
+                      <p>No matter which plan you choose, all your visualizations and data are private until you hit the “Publish” button.</p>
+                    </div>
+                  </div>
+                  <div class="sec2Card">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M20.3999 27.2L11.5999 27.2" stroke="#079F5A" stroke-width="2" stroke-linecap="round"/>
+                              <path d="M16 26.8L16 19.6" stroke="#079F5A" stroke-width="2" stroke-linecap="round"/>
+                              <path d="M5.6001 6.0001C5.6001 5.77918 5.77918 5.6001 6.0001 5.6001H16.0001H26.0001C26.221 5.6001 26.4001 5.77919 26.4001 6.0001V12.4001V18.8001C26.4001 19.021 26.221 19.2001 26.0001 19.2001H16.0001H6.0001C5.77918 19.2001 5.6001 19.021 5.6001 18.8001V12.4001V6.0001Z" stroke="#079F5A" stroke-width="2"/>
+                              <path d="M10.7998 12L10.7998 15.4" stroke="#079F5A" stroke-width="2" stroke-linecap="round"/>
+                              <path d="M21.2002 10.2L21.2002 15.4" stroke="#079F5A" stroke-width="2" stroke-linecap="round"/>
+                              <path d="M16 8.6001L16 15.4001" stroke="#079F5A" stroke-width="2" stroke-linecap="round"/>
+                              </svg>
+                              
+        
+                    <div class="text">
+                      <h3>Responsive</h3>
+                      <p>On desktop devices, tablets, or smartphones — Datawrapper visualizations are beautiful and readable everywhere.</p>
+                    </div>
+                  </div>
+                  <div class="sec2Card">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <circle cx="16.1" cy="15.9" r="4.1" stroke="#079F5A" stroke-width="2"/>
+                              <circle cx="16.0998" cy="4.5002" r="2.3" stroke="#079F5A" stroke-width="2"/>
+                              <circle r="2.3" transform="matrix(1 0 0 -1 16.0998 27.4998)" stroke="#079F5A" stroke-width="2"/>
+                              <circle cx="25.9594" cy="21.6503" r="2.3" transform="rotate(120 25.9594 21.6503)" stroke="#079F5A" stroke-width="2"/>
+                              <circle cx="6.0406" cy="10.15" r="2.3" transform="rotate(-60 6.0406 10.15)" stroke="#079F5A" stroke-width="2"/>
+                              <path d="M16.1001 6.5V12" stroke="#079F5A" stroke-width="2"/>
+                              <path d="M16.1001 25.5V20" stroke="#079F5A" stroke-width="2"/>
+                              <path d="M24.1406 20.6001L19.3775 17.8501" stroke="#079F5A" stroke-width="2"/>
+                              <path d="M7.85938 11.2L12.6225 13.95" stroke="#079F5A" stroke-width="2"/>
+                              <circle cx="25.8888" cy="10.1793" r="2.3" transform="rotate(60 25.8888 10.1793)" stroke="#079F5A" stroke-width="2"/>
+                              <circle cx="5.97009" cy="21.6791" r="2.3" transform="rotate(-120 5.97009 21.6791)" stroke="#079F5A" stroke-width="2"/>
+                              <path d="M24.0698 11.2295L19.3067 13.9795" stroke="#079F5A" stroke-width="2"/>
+                              <path d="M7.78857 20.6294L12.5517 17.8794" stroke="#079F5A" stroke-width="2"/>
+                              </svg>
+                              
+                    </svg>
+        
+                    <div class="text">
+                      <h3>Collaborate in teams</h3>
+                      <p>Make use of shared folders, Slack and Teams integration, and admin permissions to see what your team is creating.</p>
+                    </div>
+                  </div>
+                  <div class="sec2Card">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M5.39991 22.4941C5.39991 19.8512 8.95804 16.1079 13.1943 16.6783C16.1353 17.0744 15.6645 20.3198 18.6055 20.7158C22.8418 21.2863 26.3999 14.9 26.3999 14.9M13.1943 8.06257C8.95803 7.4921 5.3999 11.2355 5.3999 13.8784L5.3999 25.453C5.3999 25.5356 5.48963 25.6 5.60032 25.6L26.1995 25.6C26.3102 25.6 26.3999 25.5331 26.3999 25.4505V7.03356C26.3999 6.87003 26.0793 6.81551 25.9838 6.96268C24.9267 8.59124 21.9814 12.5547 18.6055 12.1001C15.6645 11.704 16.1353 8.45861 13.1943 8.06257Z" stroke="#079F5A" stroke-width="2" stroke-linecap="round"/>
+                              </svg>
+                              
+        
+                    <div class="text">
+                      <h3>Comes in your design</h3>
+                      <p>Send us your style guide and we’ll create a custom chart theme for your brand, 100% white-labeled.</p>
+                    </div>
+                  </div>
+                  <div class="sec2Card">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M23.8 13.0514L15.9 4.6001M23.8 13.0514H17.3C16.5268 13.0514 15.9 12.4246 15.9 11.6514V4.6001M23.8 13.0514V18.2001M15.9 4.6001H9.4C8.6268 4.6001 8 5.2269 8 6.0001V23.8001C8 24.5733 8.6268 25.2001 9.4 25.2001H12.5" stroke="#079F5A" stroke-width="2" stroke-linecap="round"/>
+                              <path d="M19.4 27.4001L22.8 24.0001M19.4 27.4001L16 24.0001M19.4 27.4001L19.4 18.6001" stroke="#079F5A" stroke-width="2" stroke-linecap="round"/>
+                              </svg>
+                              
+        
+                    <div class="text">
+                      <h3>PNG, SVG, PDF export</h3>
+                      <p>Export every visualization as PNG, SVG, or PDF and continue working in, e.g., Adobe Illustrator.</p>
+                    </div>
+                  </div>
+                  <div class="sec2Card">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M22.9211 4.40015C21.0927 4.40015 19.612 5.96734 19.612 7.77859C18.6787 8.062 18 8.92245 18 9.93992C18 11.1882 19.0215 12.2001 20.2816 12.2001H25.3816C26.3211 12.1558 28.2 11.5531 28.2 9.49674C28.2 8.20458 27.3139 7.11744 26.1109 6.79907C25.7225 5.4155 24.4415 4.40015 22.9211 4.40015Z" stroke="#079F5A" stroke-width="2" stroke-linecap="round"/>
+                              <path d="M8.52115 19.6001C6.6928 19.6001 5.2121 21.1673 5.2121 22.9785C4.27875 23.262 3.6001 24.1224 3.6001 25.1399C3.6001 26.3882 4.6216 27.4001 5.88168 27.4001H10.9817C11.9211 27.3558 13.8001 26.7531 13.8001 24.6967C13.8001 23.4045 12.914 22.3174 11.711 21.999C11.3226 20.6154 10.0416 19.6001 8.52115 19.6001Z" stroke="#079F5A" stroke-width="2" stroke-linecap="round"/>
+                              <path d="M5.6001 14.4V8.49558C5.6001 8.21202 5.89248 7.98215 6.25316 7.98215L7.55928 7.98214L13.6001 7.98214M13.6001 7.98214L10.8246 5.80006M13.6001 7.98214L10.8246 10.1642" stroke="#079F5A" stroke-width="2" stroke-linecap="round"/>
+                              <path d="M26.3999 17.6002V23.5047C26.3999 23.7882 26.1075 24.0181 25.7468 24.0181L24.4407 24.0181L18.3999 24.0181M18.3999 24.0181L21.1754 26.2002M18.3999 24.0181L21.1754 21.836" stroke="#079F5A" stroke-width="2" stroke-linecap="round"/>
+                              </svg>
+                              
+        
+                    <div class="text">
+                      <h3>Live updating</h3>
+                      <p>All our visualizations can update themselves periodically. Simply link to an external CSV or Google Sheet.</p>
+                    </div>
+                  </div>
+                  <div class="sec2Card">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <circle cx="16.1" cy="15.9" r="4.1" stroke="#079F5A" stroke-width="2"/>
+                              <circle cx="16.0998" cy="4.5002" r="2.3" stroke="#079F5A" stroke-width="2"/>
+                              <circle r="2.3" transform="matrix(1 0 0 -1 16.0998 27.4998)" stroke="#079F5A" stroke-width="2"/>
+                              <circle cx="27.4998" cy="15.9001" r="2.3" transform="rotate(90 27.4998 15.9001)" stroke="#079F5A" stroke-width="2"/>
+                              <circle cx="4.5002" cy="15.9002" r="2.3" transform="rotate(-90 4.5002 15.9002)" stroke="#079F5A" stroke-width="2"/>
+                              <path d="M16.1001 6.5V12" stroke="#079F5A" stroke-width="2"/>
+                              <path d="M16.1001 25.5V20" stroke="#079F5A" stroke-width="2"/>
+                              <path d="M25.3999 15.9001L19.8999 15.9001" stroke="#079F5A" stroke-width="2"/>
+                              <path d="M6.6001 15.9001L12.1001 15.9001" stroke="#079F5A" stroke-width="2"/>
+                              <circle cx="7.93888" cy="7.79761" r="2.3" transform="rotate(-45 7.93888 7.79761)" stroke="#079F5A" stroke-width="2"/>
+                              <circle r="2.3" transform="matrix(0.707107 -0.707107 -0.707107 -0.707107 24.2026 24.0611)" stroke="#079F5A" stroke-width="2"/>
+                              <circle cx="24.061" cy="7.79776" r="2.3" transform="rotate(45 24.061 7.79776)" stroke="#079F5A" stroke-width="2"/>
+                              <circle cx="7.79736" cy="24.0611" r="2.3" transform="rotate(-135 7.79736 24.0611)" stroke="#079F5A" stroke-width="2"/>
+                              <path d="M9.35303 9.21191L13.2421 13.101" stroke="#079F5A" stroke-width="2"/>
+                              <path d="M22.7881 22.647L18.899 18.7579" stroke="#079F5A" stroke-width="2"/>
+                              <path d="M22.5762 9.28247L18.6871 13.1716" stroke="#079F5A" stroke-width="2"/>
+                              <path d="M9.28271 22.5762L13.1718 18.6871" stroke="#079F5A" stroke-width="2"/>
+                              </svg>
+                              
+        
+                    <div class="text">
+                      <h3>Works for big audiences</h3>
+                      <p>Datawrapper visualizations scale to the largest audiences and support even millions of viewers.</p>
+                    </div>
+                  </div>
+                  <div class="sec2Card">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M8.4 26.6C8.17909 26.6 8 26.4209 8 26.2V5.59995C8 5.37904 8.17909 5.19995 8.4 5.19995H15.4635L23.8 14.1922V26.2C23.8 26.4209 23.6209 26.6 23.4 26.6H8.4Z" stroke="#079F5A" stroke-width="2"/>
+                              </svg>
+                              
+        
+                    <div class="text">
+                      <h3>Print-ready graphics</h3>
+                      <p>Even print-ready PDFs with defined CMYK colors are possible.</p>
+                    </div>
+                  </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <section>
+          <div class="slider_container">
+                    <div class="slider_head">
+                              <h2>Lorem ipsum dolor sit</h2>
+                              <p>Datawrapper lets you show your data as beautiful charts, maps or tables with a few clicks. Find out 
+                                        more about all the available visualization types.</p>
+                    </div>
+  
+                    <div class="owl-carousel owl-theme">
+                              <div class="slider_card">
+                                        <img src="image/slider_img.png" alt="">
+                                        <h3>Analytics Dashboard</h3>
+                                        <p>Use one of 19 interactive and responsive chart types ranging from simple bars</p>
+                              </div>
+                              <div class="slider_card">
+                                        <img src="image/slider_img.png" alt="">
+                                        <h3>Analytics Dashboard</h3>
+                                        <p>Use one of 19 interactive and responsive chart types ranging from simple bars</p>
+                              </div>
+                              <div class="slider_card">
+                                        <img src="image/slider_img.png" alt="">
+                                        <h3>Analytics Dashboard</h3>
+                                        <p>Use one of 19 interactive and responsive chart types ranging from simple bars</p>
+                              </div>
+                              <div class="slider_card">
+                                        <img src="image/slider_img.png" alt="">
+                                        <h3>Analytics Dashboard</h3>
+                                        <p>Use one of 19 interactive and responsive chart types ranging from simple bars</p>
+                              </div>
+                          </div>
+          </div>
+    </section>
+    <footer>
+          <div class="footer_about">
+                    <div class="footer_card">
+                            <img src="image/Qsmart.png" alt="">  
+                            <p>Duis lorem pulvinar faucibus turpis leo sit sapien. Integer nunc consequat duis massa pharetra</p>
+                    </div>
+                    <div class="footer_card">
+                              <h3>Platform</h3>
+                              <ul>
+                                        <li><a href="">Analytics Dashboard</a></li>
+                                        <li><a href="">Graph & Chart</a></li>
+                                        <li><a href="">Forecasting</a></li>
+                              </ul>
+                    </div>
+                    <div class="footer_card">
+                              <h3>Solutions</h3>
+                              <ul>
+                                        <li><a href="">Sales</a></li>
+                                        <li><a href="">Marketing</a></li>
+                                        <li><a href="">Education</a></li>
+                                        <li><a href="">Finance </a></li>
+                                        <li><a href="">Sosial Media</a></li>
+                                        <li><a href="">Procurement and logistics
+                                        </a></li>
+
+                              </ul>
+                    </div>
+                    <div class="footer_card">
+                              <h3>Resources</h3>
+                              <ul>
+                                        <li><a href="">Blog</a></li>
+                                        <li><a href="">FAQ</a></li>
+                                        <li><a href="">Video Demos</a></li>
+                                        <li><a href="">Examples </a></li>
+                                        <li><a href="">Support </a></li>
+
+                              </ul>
+                    </div>
+                    <div class="footer_card">
+                              <h3>About us</h3>
+                              <ul>
+                                        <li><a href="">T: +994 77 445 33 45</a></li>
+                                        <li><a href="">M: info@qsmart.az</a></li>
+                                        
+                              </ul>
+                    </div>
+                    <div class="footer_card">
+                              <h3>Follow Us</h3>
+                              <ul>
+                                        <li><a href="">Facebook</a></li>
+                                        <li><a href="">Instagram</a></li>
+                                        <li><a href="">Twitter</a></li>
+                              </ul>
+                    </div>
+          </div>
+          <div class="footer_food">
+                   <p>© 2022 Envato Elements Pty Ltd. Trademarks and brands are the property of their respective owners.</p> 
+          </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/slider.js"></script>
+</body>
 </html>

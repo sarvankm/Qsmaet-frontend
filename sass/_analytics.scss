@@ -1,0 +1,128 @@
+header {
+  .window_location {
+    height: 5vh;
+    padding-top: 15px;
+    padding-left: 40px;
+    h4 {
+      font-style: normal;
+      font-weight: 450;
+      font-size: 14px;
+      line-height: 18px;
+      color: var(--textColor);
+      span {
+        color: var(--green);
+      }
+    }
+  }
+  .header_body_analytics {
+    background-color: var(--green);
+    height: 82vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    align-items: center;
+    gap: 71px;
+    img{
+          max-width: 670px;
+    }
+    .header_text {
+          color: white;
+      h1 {
+        max-width: 619px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 56px;
+        line-height: 60px;
+        margin-bottom: 20px;
+      }
+      p {
+        font-style: normal;
+        font-weight: 450;
+        font-size: 18px;
+        line-height: 22px;
+        max-width: 440px;
+        margin-bottom: 50px;
+      }
+      button {
+        width: 271px;
+        height: 56px;
+        background-color: var(--white);
+        color: var(--green);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        border-radius: 30px;
+        border: none;
+      }
+    }
+  }
+}
+
+.analytics_skill {
+  max-width: 890px;
+  padding: 40px;
+  margin-left: auto;
+  background-color: var(--green);
+  border-radius: 20px 0px 0px 10px;
+  margin-bottom: 120px;
+  margin-top: 70px;
+  h2 {
+    max-width: 580px;
+    color: var(--white);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width:1150px){
+  .header_body_analytics{
+    h1{
+      font-size: 36px;
+    }
+    p{
+      font-size: 18px;
+    }
+    img{
+      width: 500px;
+    }
+  }
+}
+@media screen and (max-width:900px){
+  .header_body_analytics {
+  flex-direction: column;
+    justify-content: center !important;
+    img{
+          max-width: 670px;
+    }
+  }
+}
+@media screen and (max-width:505px){
+  .header_body_analytics {
+    padding: 0px !important;
+    gap: 30px !important;
+    img{
+         width: 100%;
+    }
+    button{
+      display: none;
+    }
+    .header_text{
+      h1{
+        font-size: 36px;
+        width: 100%;
+      }
+      p{
+        font-size: 18px;
+        width: 100%;
+      }
+    }
+  }
+  .analytics_skill{
+    h2{
+      font-size: 20px;
+    }
+  }
+}

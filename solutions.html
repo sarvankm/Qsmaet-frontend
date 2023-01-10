@@ -1,402 +1,329 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="initial-scale=1, width=device-width" />
-    <title>Solutions</title>
-    <meta name="description" content="" />
-
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/solutions.css" />
-    <link rel="stylesheet" href="./css/flickity.css" />
-    <link rel="stylesheet" href="./css/bootstrap.min.css" type="text/css"/>
-    
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QSmart</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+   
+    <link rel="stylesheet" href="sass/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-
-    <nav class="navbar navbar-inverse navbar-top" role="navigation">
-			<div class="container">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar-1">
-						<span class="sr-only">Toggle navigation</span>
-					</button>
-					
-				
-			
-					<a class="navbar-brand" href="index.html"></a>
-				</div>
-				
-
-				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse" id="top-navbar-1">
-					<ul class="nav navbar-nav navbar-right">
-						<li class="dropdown">
-              <a class="dropbtn">Platform</a>
-              <div class="dropdown-content">
-              <a href="analytics.html">Analytics Dashboard</a>
-              <a href="graphchart.html">Graph & Chart</a>
-              <a href="forecasting.html">Forecasting</a>
-              </div>
-              </li>
-              <li class="dropdown">
-                <a class="dropbtn">Solutions</a>
-                <div class="dropdown-content">
-                <a href="solutions.html?filename=tryhow_css_smooth_scroll#section1">Sales</a>
-                <a href="solutions.html?filename=tryhow_css_smooth_scroll#section2">Marketing</a>
-                <a href="solutions.html?filename=tryhow_css_smooth_scroll#section3">Education</a>
-                <a href="solutions.html?filename=tryhow_css_smooth_scroll#section4">Finance</a>
-                <a href="solutions.html?filename=tryhow_css_smooth_scroll#section5">Social Media</a>
-                <a href="solutions.html?filename=tryhow_css_smooth_scroll#section6">Procurement and Logistics</a>
-                </div>
+    <header>
+      <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+              <img src="image/Qsmart.png" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 ">
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Platform
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="analytics.html">Analytics Dashboard</a></li>
+                    <li><a class="dropdown-item" href="Graph.html">Graph & Chart</a></li>
+                    <li><a class="dropdown-item" href="Forecasting.html">Forecasting</a></li>
+                  </ul>
                 </li>
-						
-						
-                <li class="dropdown">
-                  <a class="dropbtn">Resources</a>
-                  <div class="dropdown-content">
-                  <a href="blog.html">Blog</a>
-                  <a href="faq.html">FAQ</a>
-                  <a href="video.html">Video Demos</a>
-                  <a href="examples.html">Examples</a>
-                  <a href="support.html">Support</a>
-                  </div>
-                  </li>
-						
-                  <li class="dropdown">
-                    <a class="dropbtn">About us</a>
-                    <div class="dropdown-content">
-                    <a href="contacts.html">Contacts</a>
-                    </div>
-                    </li>
-            <div class="frame-div338">
-              <button class="primary-big-button10a">
-              <li class="secondary-button-div14">
-                <div class="analyze-now-div20">Log in</div>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Solutions</a>
+                </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Resources
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
               </li>
-            </button>
-            <li></li>
-            <button class="primary-big-button10a" id="primaryBigButton">
-              <li class="primary-button-div14">
-                
-                <div class="analyze-now-div20">Analyze Now</div>
-              
-              </li>
-            </button>
-            </div>
-					</ul>
-				</div>
-			</div>
-		</nav>
-    <div class="navigation">
-      <div class=ei1_787_1_2336>
-        <div class="ei1_787_1_2337"></div>
-        <div class=ei1_787_1_2338><a class="ei1_787_1_2339" href="index.html">Home page</a><span  class="ei1_787_1_2340">/</span><span  class="ei1_787_1_23435">Solutions</span></div>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      About us
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+            </ul>
+            <form class="d-flex headBtns" role="search">
+              <button class="headBtn1"  type="submit">Log in</button>
+              <button  class="headBtn2"  type="submit">Analyze Now</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="window_location">
+        <h4>Home page / <span>Solutions</span></h4>
       </div>
-    </div>
-    <div class="main">
+      <div class="header_body_analytics">
+        <div class="header_text">
+          <h1>Infuse analytics in any industry</h1>
+          <p>
+            Go from data to insights regardless of what industry or department
+            you are in by infusing analytics
+          </p>
+          <button>Analyze Now</button>
+        </div>
+        <div class="header_img">
+          <img src="image/analytics.png" alt="" />
+        </div>
+      </div>
+    </header>
 
+    <section>
+      <div class="solutions_skill">
+        <h2>Go beyond standard intelligence to disrupt your market</h2>
+        <p>
+          Move your business forward and stand out as an industry leader by
+          infusing the power of AI-driven analytics everywhere
+        </p>
+      </div>
+    </section>
+    
+    <section>
+      <div class="solution_container">
+        <div class="solutions_card">
+          <div class="text">
+            <h2>Sales</h2>
+            <p>
+              Leverage analytics to monitor user activities, deliver custom
+              experiences and generate new offerings for your customers.
+            </p>
+            <ul>
+              <li><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="6" cy="6" r="5" stroke="#079F5A" stroke-width="2"/>
+                    </svg>
+                    Create a competitive advantage</li>
+              <li><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="6" cy="6" r="5" stroke="#079F5A" stroke-width="2"/>
+                    </svg>
+                    Improve customer offerings</li>
+              <li><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="6" cy="6" r="5" stroke="#079F5A" stroke-width="2"/>
+                    </svg>
+                    Generate new revenue streams</li>
+            </ul>
+            <a href="">Learn more about our technology solutions</a>
+          </div>
+          <img src="image/SolutionImage.png" alt="" />
+        </div>
+        <div class="solutions_card">
+          <div class="text">
+            <h2>Marketing</h2>
+            <p>
+              Leverage analytics to monitor user activities, deliver custom
+              experiences and generate new offerings for your customers.
+            </p>
+            <ul>
+              <li><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="6" cy="6" r="5" stroke="#079F5A" stroke-width="2"/>
+                    </svg>
+                    Create a competitive advantage</li>
+              <li><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="6" cy="6" r="5" stroke="#079F5A" stroke-width="2"/>
+                    </svg>
+                    Improve customer offerings</li>
+              <li><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="6" cy="6" r="5" stroke="#079F5A" stroke-width="2"/>
+                    </svg>
+                    Generate new revenue streams</li>
+            </ul>
+            <a href="">Learn more about our technology solutions</a>
+          </div>
+          <img src="image/SolutionImage.png" alt="" />
+        </div>
+        <div class="solutions_card">
+          <div class="text">
+            <h2>Education</h2>
+            <p>
+              Leverage analytics to monitor user activities, deliver custom
+              experiences and generate new offerings for your customers.
+            </p>
+            <ul>
+              <li><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="6" cy="6" r="5" stroke="#079F5A" stroke-width="2"/>
+                    </svg>
+                    Create a competitive advantage</li>
+              <li><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="6" cy="6" r="5" stroke="#079F5A" stroke-width="2"/>
+                    </svg>
+                    Improve customer offerings</li>
+              <li><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="6" cy="6" r="5" stroke="#079F5A" stroke-width="2"/>
+                    </svg>
+                    Generate new revenue streams</li>
+            </ul>
+            <a href="">Learn more about our technology solutions</a>
+          </div>
+          <img src="image/SolutionImage.png" alt="" />
+        </div>
+        <div class="solutions_card">
+          <div class="text">
+            <h2>Finance </h2>
+            <p>
+              Leverage analytics to monitor user activities, deliver custom
+              experiences and generate new offerings for your customers.
+            </p>
+            <ul>
+              <li><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="6" cy="6" r="5" stroke="#079F5A" stroke-width="2"/>
+                    </svg>
+                    Create a competitive advantage</li>
+              <li><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="6" cy="6" r="5" stroke="#079F5A" stroke-width="2"/>
+                    </svg>
+                    Improve customer offerings</li>
+              <li><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="6" cy="6" r="5" stroke="#079F5A" stroke-width="2"/>
+                    </svg>
+                    Generate new revenue streams</li>
+            </ul>
+            <a href="">Learn more about our technology solutions</a>
+          </div>
+          <img src="image/SolutionImage.png" alt="" />
+        </div>
+        <div class="solutions_card">
+          <div class="text">
+            <h2>Sosial Media </h2>
+            <p>
+              Leverage analytics to monitor user activities, deliver custom
+              experiences and generate new offerings for your customers.
+            </p>
+            <ul>
+              <li><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="6" cy="6" r="5" stroke="#079F5A" stroke-width="2"/>
+                    </svg>
+                    Create a competitive advantage</li>
+              <li><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="6" cy="6" r="5" stroke="#079F5A" stroke-width="2"/>
+                    </svg>
+                    Improve customer offerings</li>
+              <li><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="6" cy="6" r="5" stroke="#079F5A" stroke-width="2"/>
+                    </svg>
+                    Generate new revenue streams</li>
+            </ul>
+            <a href="">Learn more about our technology solutions</a>
+          </div>
+          <img src="image/SolutionImage.png" alt="" />
+        </div>
+        <div class="solutions_card">
+          <div class="text">
+            <h2>Procurement and logistics</h2>
+            <p>
+              Leverage analytics to monitor user activities, deliver custom
+              experiences and generate new offerings for your customers.
+            </p>
+            <ul>
+              <li><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="6" cy="6" r="5" stroke="#079F5A" stroke-width="2"/>
+                    </svg>
+                    Create a competitive advantage</li>
+              <li><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="6" cy="6" r="5" stroke="#079F5A" stroke-width="2"/>
+                    </svg>
+                    Improve customer offerings</li>
+              <li><svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="6" cy="6" r="5" stroke="#079F5A" stroke-width="2"/>
+                    </svg>
+                    Generate new revenue streams</li>
+            </ul>
+            <a href="">Learn more about our technology solutions</a>
+          </div>
+          <img src="image/SolutionImage.png" alt="" />
+        </div>
+      </div>
+    </section>
 
-  <div class="group-div42567">
-    <div class="group-div27">
-      
-      <img class="image-3-icon" alt="" src="public/image-3@2x.png" />
-      <div class="frame-div6">
-        <div class="frame-div7">
-          <div class="analytics-dashboard-div2">Analytics Dashboard</div>
-          <div class="lorem-ipsum-dolor-sit-amet-co">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-            elementum placerat lectus morbi non sed blandit tempus sodales.
-            Faucibus.
-          </div>
+    <footer>
+      <div class="footer_about">
+        <div class="footer_card">
+          <img src="image/Qsmart.png" alt="" />
+          <p>
+            Duis lorem pulvinar faucibus turpis leo sit sapien. Integer nunc
+            consequat duis massa pharetra
+          </p>
         </div>
-        <button class="primary-big-button" id="primaryBigButton">
-          <div class="primary-big-button1">
-            <div class="analyze-now-div">öz dashboard yarat</div>
-          </div>
-        </button>
-      </div>
-
-    </div>
-       </div>
-       <div class="margin"><div class="group-div7122s">
-        <div class="flex-5"></div>
-        <div class="flex-6"></div>
-    </div></div>
-    <div class="frame-div1ss">
-    <div class="frame-div1">
-      <b class="go-beyond-standard-intelligenc">Go beyond standard intelligence to disrupt your market</b>
-      <div class="move-your-business-forward-and">
-        Move your business forward and stand out as an industry leader by
-        infusing the power of AI-driven analytics everywhere
-      </div>
-    </div>
-    </div>
-    <div class="sections">    
-    <div class="group-div1" id="section1">
-      <img class="image-4-icon" alt="" src="public/image-4@2x.png" />
-      <div class="frame-div3s">
-        <div class="frame-div4s">
-          <div class="frame-div5s">
-            <div class="sales-divs">Sales</div>
-            <div class="leverage-analytics-to-monitor">
-              Leverage analytics to monitor user activities, deliver custom
-              experiences and generate new offerings for your customers.
-            </div>
-          </div>
-          <div class="group-div2s">
-            <img class="ellipse-icon" alt="" src="public/ellipse-33.svg" />
-            <div class="create-a-competitive-advantage">
-              Create a competitive advantage
-            </div>
-            <img class="ellipse-icon1" alt="" src="public/ellipse-33.svg" />
-            <div class="improve-customer-offerings">
-              Improve customer offerings
-            </div>
-            <img class="ellipse-icon2" alt="" src="public/ellipse-33.svg" />
-            <div class="generate-new-revenue-streams">
-              Generate new revenue streams
-            </div>
-          </div>
+        <div class="footer_card">
+          <h3>Platform</h3>
+          <ul>
+            <li><a href="">Analytics Dashboard</a></li>
+            <li><a href="">Graph & Chart</a></li>
+            <li><a href="">Forecasting</a></li>
+          </ul>
         </div>
-        <a class="learn-more-about-our-technolog" href="index.html">
-          Learn more about our technology solutions
-        </a>
-      </div>
-      <div class="line-divs"></div>
-    </div>
-    <div class="group-div1" id="section2">
-      <img class="image-4-icon" alt="" src="public/image-4@2x.png" />
-      <div class="frame-div3s">
-        <div class="frame-div4s">
-          <div class="frame-div5s">
-            <div class="sales-divs">Marketing</div>
-            <div class="leverage-analytics-to-monitor">
-              Leverage analytics to monitor user activities, deliver custom
-              experiences and generate new offerings for your customers.
-            </div>
-          </div>
-          <div class="group-div2s">
-            <img class="ellipse-icon" alt="" src="public/ellipse-33.svg" />
-            <div class="create-a-competitive-advantage">
-              Create a competitive advantage
-            </div>
-            <img class="ellipse-icon1" alt="" src="public/ellipse-33.svg" />
-            <div class="improve-customer-offerings">
-              Improve customer offerings
-            </div>
-            <img class="ellipse-icon2" alt="" src="public/ellipse-33.svg" />
-            <div class="generate-new-revenue-streams">
-              Generate new revenue streams
-            </div>
-          </div>
+        <div class="footer_card">
+          <h3>Solutions</h3>
+          <ul>
+            <li><a href="">Sales</a></li>
+            <li><a href="">Marketing</a></li>
+            <li><a href="">Education</a></li>
+            <li><a href="">Finance </a></li>
+            <li><a href="">Sosial Media</a></li>
+            <li><a href="">Procurement and logistics </a></li>
+          </ul>
         </div>
-        <a class="learn-more-about-our-technolog" href="index.html">
-          Learn more about our technology solutions
-        </a>
-      </div>
-      <div class="line-divs"></div>
-    </div>
-    <div class="group-div1" id="section3">
-      <img class="image-4-icon" alt="" src="public/image-4@2x.png" />
-      <div class="frame-div3s">
-        <div class="frame-div4s">
-          <div class="frame-div5s">
-            <div class="sales-divs">Education</div>
-            <div class="leverage-analytics-to-monitor">
-              Leverage analytics to monitor user activities, deliver custom
-              experiences and generate new offerings for your customers.
-            </div>
-          </div>
-          <div class="group-div2s">
-            <img class="ellipse-icon" alt="" src="public/ellipse-33.svg" />
-            <div class="create-a-competitive-advantage">
-              Create a competitive advantage
-            </div>
-            <img class="ellipse-icon1" alt="" src="public/ellipse-33.svg" />
-            <div class="improve-customer-offerings">
-              Improve customer offerings
-            </div>
-            <img class="ellipse-icon2" alt="" src="public/ellipse-33.svg" />
-            <div class="generate-new-revenue-streams">
-              Generate new revenue streams
-            </div>
-          </div>
+        <div class="footer_card">
+          <h3>Resources</h3>
+          <ul>
+            <li><a href="">Blog</a></li>
+            <li><a href="">FAQ</a></li>
+            <li><a href="">Video Demos</a></li>
+            <li><a href="">Examples </a></li>
+            <li><a href="">Support </a></li>
+          </ul>
         </div>
-        <a class="learn-more-about-our-technolog" href="index.html">
-          Learn more about our technology solutions
-        </a>
-      </div>
-      <div class="line-divs"></div>
-    </div>
-    <div class="group-div1" id="section4">
-      <img class="image-4-icon" alt="" src="public/image-4@2x.png" />
-      <div class="frame-div3s">
-        <div class="frame-div4s">
-          <div class="frame-div5s">
-            <div class="sales-divs">Finance</div>
-            <div class="leverage-analytics-to-monitor">
-              Leverage analytics to monitor user activities, deliver custom
-              experiences and generate new offerings for your customers.
-            </div>
-          </div>
-          <div class="group-div2s">
-            <img class="ellipse-icon" alt="" src="public/ellipse-33.svg" />
-            <div class="create-a-competitive-advantage">
-              Create a competitive advantage
-            </div>
-            <img class="ellipse-icon1" alt="" src="public/ellipse-33.svg" />
-            <div class="improve-customer-offerings">
-              Improve customer offerings
-            </div>
-            <img class="ellipse-icon2" alt="" src="public/ellipse-33.svg" />
-            <div class="generate-new-revenue-streams">
-              Generate new revenue streams
-            </div>
-          </div>
+        <div class="footer_card">
+          <h3>About us</h3>
+          <ul>
+            <li><a href="">T: +994 77 445 33 45</a></li>
+            <li><a href="">M: info@qsmart.az</a></li>
+          </ul>
         </div>
-        <a class="learn-more-about-our-technolog" href="index.html">
-          Learn more about our technology solutions
-        </a>
-      </div>
-      <div class="line-divs"></div>
-    </div>
-    <div class="group-div1" id="section5">
-      <img class="image-4-icon" alt="" src="public/image-4@2x.png" />
-      <div class="frame-div3s">
-        <div class="frame-div4s">
-          <div class="frame-div5s">
-            <div class="sales-divs">Social Media</div>
-            <div class="leverage-analytics-to-monitor">
-              Leverage analytics to monitor user activities, deliver custom
-              experiences and generate new offerings for your customers.
-            </div>
-          </div>
-          <div class="group-div2s">
-            <img class="ellipse-icon" alt="" src="public/ellipse-33.svg" />
-            <div class="create-a-competitive-advantage">
-              Create a competitive advantage
-            </div>
-            <img class="ellipse-icon1" alt="" src="public/ellipse-33.svg" />
-            <div class="improve-customer-offerings">
-              Improve customer offerings
-            </div>
-            <img class="ellipse-icon2" alt="" src="public/ellipse-33.svg" />
-            <div class="generate-new-revenue-streams">
-              Generate new revenue streams
-            </div>
-          </div>
-        </div>
-        <a class="learn-more-about-our-technolog" href="index.html">
-          Learn more about our technology solutions
-        </a>
-      </div>
-      <div class="line-divs"></div>
-    </div>
-    <div class="group-div1" id="section6">
-      <img class="image-4-icon" alt="" src="public/image-4@2x.png" />
-      <div class="frame-div3s">
-        <div class="frame-div4s">
-          <div class="frame-div5s">
-            <div class="sales-divs">Procurement and logistics</div>
-            <div class="leverage-analytics-to-monitor">
-              Leverage analytics to monitor user activities, deliver custom
-              experiences and generate new offerings for your customers.
-            </div>
-          </div>
-          <div class="group-div2s">
-            <img class="ellipse-icon" alt="" src="public/ellipse-33.svg" />
-            <div class="create-a-competitive-advantage">
-              Create a competitive advantage
-            </div>
-            <img class="ellipse-icon1" alt="" src="public/ellipse-33.svg" />
-            <div class="improve-customer-offerings">
-              Improve customer offerings
-            </div>
-            <img class="ellipse-icon2" alt="" src="public/ellipse-33.svg" />
-            <div class="generate-new-revenue-streams">
-              Generate new revenue streams
-            </div>
-          </div>
-        </div>
-        <a class="learn-more-about-our-technolog" href="index.html">
-          Learn more about our technology solutions
-        </a>
-      </div>
-      
-    </div>
-  </div>
-  <div class="footer-div">
-    <div class="footer">
-      <div class="footer-link">
-      <div class="group-div453">
-        <div class="platform-div53">Platform</div>
-        <div class="frame-div331">
-          <a class="analytics-dashboard-div38" href="analytics.html">Analytics Dashboard</a>
-          <a class="analytics-dashboard-div38" href="graphchart.html">Graph & Chart</a>
-          <a class="analytics-dashboard-div38" href="forecasting.html">Forecasting</a>
+        <div class="footer_card">
+          <h3>Follow Us</h3>
+          <ul>
+            <li><a href="">Facebook</a></li>
+            <li><a href="">Instagram</a></li>
+            <li><a href="">Twitter</a></li>
+          </ul>
         </div>
       </div>
-      <div class="group-div453">
-        <div class="platform-div53">Solutions</div>
-        <div class="frame-div331">
-          <a class="analytics-dashboard-div38" href="solutions.html?filename=tryhow_css_smooth_scroll#section1">Sales</a>
-          <a class="analytics-dashboard-div38" href="solutions.html?filename=tryhow_css_smooth_scroll#section2">Marketing</a>
-          <a class="analytics-dashboard-div38" href="solutions.html?filename=tryhow_css_smooth_scroll#section3">Education</a>
-          <a class="analytics-dashboard-div38" href="solutions.html?filename=tryhow_css_smooth_scroll#section4">Finance</a>
-          <a class="analytics-dashboard-div38" href="solutions.html?filename=tryhow_css_smooth_scroll#section5">Social Media</a>
-          <a class="analytics-dashboard-div38" href="solutions.html?filename=tryhow_css_smooth_scroll#section6">Procurement and logistics</a>
-        </div>
+      <div class="footer_food">
+        <p>
+          © 2022 Envato Elements Pty Ltd. Trademarks and brands are the property
+          of their respective owners.
+        </p>
       </div>
-      <div class="group-div453">
-        <div class="platform-div53">Resources</div>
-        <div class="frame-div331">
-          <a class="analytics-dashboard-div38" href="blog.html">Blog</a>
-          <a class="analytics-dashboard-div38" href="faq.html">FAQ</a>
-          <a class="analytics-dashboard-div38" href="video.html">Video Demos</a>
-          <a class="analytics-dashboard-div38" href="examples.html">Examples</a>
-          <a class="analytics-dashboard-div38" href="support.html">Support</a>
-        </div>
-      </div>
-      <div class="group-div453">
-        <div class="platform-div53">About us</div>
-        <div class="frame-div331">
-          <a class="analytics-dashboard-div38" href="contacts.html">Contacts</a>
-          <a class="analytics-dashboard-div38" href="index.html">T: +994 77 445 33 45</a>
-          <a class="analytics-dashboard-div38" href="index.html">M: info@qsmart.az</a>
-        </div>
-      </div>
-      <div class="group-div453">
-        <div class="platform-div53">Follow Us</div>
-        <div class="frame-div331">
-          <a class="analytics-dashboard-div38" href="https://facebok.com">Facebook</a>
-            <a class="analytics-dashboard-div38" href="https://instagram.com">Instagram</a>
-              <a class="analytics-dashboard-div38" href="https://twitter.com">Twitter</a>
-        </div>
-      </div>
-      </div>
-      <div class="qsmart-div33" >
-
-          <a class="footer-brand" href="index.html"></a>
- 
-      <div class="frame-div336">
-        <div class="duis-lorem-pulvinar-faucibus-t12">
-          Duis lorem pulvinar faucibus turpis leo sit sapien. Integer nunc
-          consequat duis massa pharetra
-        </div>
-      </div>
-    </div>
-  
-  </div>
-  <div class="footer-end">
-  <div class="reserved">
-    <div class="envato-elements-pty-ltd-trade16">
-      © 2022 QSmart all right reserved. Powered by Asif Designs.
-    </div>
-  </div>
-</div>
-  </div>
-
-      <script src="./js/jquery-1.9.1.min.js"></script>
-      <script src="./js/bootstrap.min.js"></script>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/slider.js"></script>
   </body>
 </html>
