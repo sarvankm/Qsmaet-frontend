@@ -13,7 +13,7 @@
           --gray:#777777;
 }
 body{
-          background-color: var(--bodyColor)
+          background-color: var(--bodyColor);
 }
 main{
           max-width: 1360px;
@@ -28,3 +28,10 @@ main{
 @import "index";
 @import "analytics";
 @import "solutions";
+@import "fag";
+@import "form";
+@import "gallery";
+@import "blog";
+@import "problem";
+@import "videodemo";
+@import "forget";

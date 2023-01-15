@@ -1,0 +1,230 @@
+.forgetContainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--white);
+  align-items: center;
+  img {
+    width: 40%;
+    border-radius: 20px;
+  }
+  .fotgetAbout {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h2 {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 40px;
+      color: var(--textColor);
+    }
+    p {
+      font-style: normal;
+      font-weight: 450;
+      font-size: 18px;
+      line-height: 22px;
+      color: var(--gray);
+      width: 500px;
+    }
+    input {
+      width: 500px;
+      border: 1px solid var(--gray);
+      border-radius: 5px;
+      background: none;
+      outline: none;
+      padding-left: 10px;
+      height: 50px;
+    }
+    .checkPass {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 500px;
+      a {
+        color: var(--gray);
+        font-weight: 450;
+        font-size: 18px;
+        line-height: 22px;
+      }
+      .checkInp {
+        display: flex;
+        gap: 7px;
+        align-items: center;
+        input {
+          width: 50px;
+          background-color: var(--green);
+          color: var(--green);
+        }
+        label {
+          color: var(--gray);
+          font-weight: 450;
+          font-size: 18px;
+          line-height: 22px;
+        }
+      }
+    }
+    .Login_btns {
+      display: flex;
+      gap: 15px;
+      flex-direction: column;
+      align-items: center;
+      a {
+        display: block;
+        width: 500px;
+        height: 50px;
+        border: 2px solid var(--green);
+        background: none;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        transition: 0.5s;
+
+        &:hover {
+          background-color: var(--green);
+          color: var(--white);
+        }
+      }
+      button {
+        width: 500px;
+        height: 50px;
+        border-radius: 10px;
+        border: none;
+        color: var(--white);
+        font-size: 18px;
+        transition: 0.5s;
+        &:nth-child(1) {
+          background-color: var(--green);
+          &:hover {
+            border: 2px solid var(--green);
+            background: none;
+            color: var(--green);
+          }
+        }
+        &:nth-child(6) {
+          background-color: #3b5998;
+        }
+        &:nth-child(5) {
+          background-color: #1da1f2;
+        }
+        &:nth-child(4) {
+          background-color: #ea4335;
+        }
+      }
+      p {
+        width: 50px;
+        border-top: 1px solid var(--textColor);
+        text-align: center;
+        position: relative;
+        margin: 20px 0;
+        span {
+          position: absolute;
+          top: -12px;
+          left: 30%;
+          background-color: white;
+          padding: 0 3px;
+        }
+      }
+    }
+    .btns {
+      display: flex;
+      gap: 15px;
+      flex-direction: column;
+      align-items: center;
+      button {
+        width: 500px;
+        height: 50px;
+        border-radius: 10px;
+        border: none;
+        color: var(--white);
+        font-size: 18px;
+        &:nth-child(1) {
+          background-color: var(--green);
+        }
+        &:nth-child(5) {
+          background-color: #3b5998;
+        }
+        &:nth-child(3) {
+          background-color: #1da1f2;
+        }
+        &:nth-child(4) {
+          background-color: #ea4335;
+        }
+      }
+      p {
+        width: 50px;
+        border-top: 1px solid var(--textColor);
+        text-align: center;
+        position: relative;
+        margin: 20px 0;
+        span {
+          position: absolute;
+          top: -12px;
+          left: 30%;
+          background-color: white;
+          padding: 0 3px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1000px) {
+  .forgetContainer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: 50%;
+    }
+  }
+}
+@media screen and (max-width: 700px) {
+  .forgetContainer {
+    img {
+      display: none;
+    }
+  }
+}
+@media screen and (max-width: 510px) {
+  .forgetContainer {
+    .fotgetAbout {
+      .btns {
+        button {
+          width: 300px;
+        }
+      }
+      .Login_btns {
+        button {
+          width: 300px;
+        }
+        a {
+          width: 300px;
+        }
+      }
+
+      input {
+        width: 300px;
+      }
+      .checkPass{
+        width: 300px;
+        label{
+          font-size: 13px;
+        }
+        a{
+          font-size: 13px;
+        }
+      }
+      .checkPass .checkInp input {
+        width: 50px;
+      }
+      p {
+        width: 300px;
+      }
+    }
+  }
+}

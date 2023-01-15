@@ -1,0 +1,105 @@
+.gallarySec1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 120px 40px;
+  gap: 20px;
+  .gallary_left {
+    width: 20%;
+    border-top: 2px solid var(--green);
+    padding-top: 20px;
+    ul {
+      list-style: none;
+      li {
+        color: var(--gray);
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 15px;
+      }
+    }
+  }
+  .gallary_rigth {
+    width: 77%;
+    border-top: 2px solid var(--green);
+    padding-top: 20px;
+    .gallary_container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: space-between;
+    }
+  }
+  button {
+    border: none;
+    background: none;
+    color: var(--green);
+    text-decoration: underline;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    display: block;
+    margin: 50px auto 0;
+  }
+  .gallary_card {
+    width: 420px;
+    height: 363px;
+    background-color: var(--white);
+    border-radius: 10px;
+    img {
+      width: 100%;
+      border-radius: 10px 10px 0 0;
+      height: 251px;
+    }
+    h3 {
+      padding: 20px;
+      color: var(--textColor);
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 24px;
+    }
+  }
+}
+
+@media screen and (max-width: 1900px) {
+  .gallary_rigth .gallary_card {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .gallarySec1 {
+    flex-direction: column;
+    justify-content: center;
+    .gallary_left,
+    .gallary_rigth {
+      width: 100%;
+    }
+    .gallary_left {
+      ul {
+        display: flex;
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content:start;
+        li {
+          border: 1px solid var(--green);
+          background-color: white;
+          color: var(--green);
+          padding: 10px 20px ;
+          border-radius: 50px;
+          height: 40px;
+          &:first-child{
+                    background-color: var(--green);
+                    color: var(--textColor);
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 690px) {
+          .gallary_rigth .gallary_card {
+            width: 100%;
+          }
+        }

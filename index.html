@@ -15,7 +15,7 @@
     <header>
       <nav class="navbar navbar-expand-lg ">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="index.html">
               <img src="image/Qsmart.png" alt="">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,7 +24,7 @@
           <div class="collapse navbar-collapse " id="navbarSupportedContent">
             <ul class="navbar-nav mb-2 ">
               <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <a class="nav-link dropdown-toggle active" href="index.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Platform
                   </a>
                   <ul class="dropdown-menu">
@@ -33,17 +33,33 @@
                     <li><a class="dropdown-item" href="Forecasting.html">Forecasting</a></li>
                   </ul>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="#">Solutions</a>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="Solutions.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Solutions
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="Solutions.html#sales">Sales</a></li>
+                    <li><a class="dropdown-item" href="Solutions.html#marketing">Marketing</a></li>
+                    <li><a class="dropdown-item" href="Solutions.html#education">Education</a></li>
+                    <li><a class="dropdown-item" href="Solutions.html#finance">Finance</a></li>
+                    <li><a class="dropdown-item" href="Solutions.html#socialMedia">Social Media</a></li>
+                    <li><a class="dropdown-item" href="Solutions.html#procurement">Procurement and Logistics</a></li>
+
+
+
+                  </ul>
                 </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Resources
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                  <li><a class="dropdown-item" href="FAQ.html">Fag</a></li>
+                  <li><a class="dropdown-item" href="VideoDemo.html">Video Demos</a></li>
+                  <li><a class="dropdown-item" href="Examples.html">Examples</a></li>
+                  <li><a class="dropdown-item" href="Support.html">Support</a></li>
+
                 </ul>
               </li>
               <li class="nav-item dropdown">
@@ -51,14 +67,12 @@
                       About us
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li><a class="dropdown-item" href="Contact.html">Contact</a></li>
                   </ul>
                 </li>
             </ul>
             <form class="d-flex headBtns" role="search">
-              <button class="headBtn1"  type="submit">Log in</button>
+              <button class="headBtn1"  type="submit"><a href="login.html">Log in</a></button>
               <button  class="headBtn2"  type="submit">Analyze Now</button>
             </form>
           </div>
@@ -357,12 +371,13 @@
     <section>
           <div class="section3">
                     <div class="text">
-                              <h2>Procurement and logistics</h2>
-                              <p>Datawrapper lets you show your data as beautiful charts, maps or tables with a few clicks. Find out 
+                              <h2 class="sec3h2">Procurement and logistics</h2>
+                              <p class="sec3p">Datawrapper lets you show your data as beautiful charts, maps or tables with a few clicks. Find out 
                                         more about all the available visualization types.</p>
                               <button>Analyze Now</button>
                     </div>
                     <div class="card6container">
+                      <div class="flex1">
                               <div class="card">
                                         <img src="image/logisticImage.png" alt="">
                                         <h3>Sales</h3>
@@ -375,6 +390,8 @@
                                         <img src="image/logisticImage.png" alt="">
                                         <h3>Education</h3>
                               </div>
+                            </div>
+                            <div class="flex1">
                               <div class="card">
                                         <img src="image/logisticImage.png" alt="">
                                         <h3>Sosial Media</h3>
@@ -384,9 +401,10 @@
                                         <h3>Finance</h3>
                               </div>
                               <div class="card">
-                                        <img src="image/logImgaeBlack.png" alt="">
+                                <img src="image/logisticImage.png" alt="">
                                         <h3>Procurement and logistics</h3>
                               </div>
+                            </div>
                     </div>
           </div>
     </section>
@@ -424,7 +442,7 @@
     </section>
       <footer>
           <div class="footer_about">
-                    <div class="footer_card">
+                    <div class="footer_card fc1">
                             <img src="image/Qsmart.png" alt="">  
                             <p>Duis lorem pulvinar faucibus turpis leo sit sapien. Integer nunc consequat duis massa pharetra</p>
                     </div>

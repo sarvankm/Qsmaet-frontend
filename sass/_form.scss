@@ -1,0 +1,108 @@
+.formHead {
+  height: 25vh;
+}
+.form_container {
+  background-color: var(--bodyColor);
+  padding-top: 40px;
+
+  .form_card {
+    max-width: 940px;
+    padding: 40px;
+    margin: 0 auto;
+    background-color: var(--white);
+    border-radius: 10px;
+    margin-bottom: 120px;
+    height: auto;
+    p {
+      color: var(--green);
+      margin-bottom: 50px;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 28px;
+      max-width: 785px;
+      span {
+        color: var(--textColor);
+      }
+    }
+    form {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px 20px;
+      justify-content: space-between;
+    }
+    .inp {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      width: 400px;
+      input {
+        width: 100%;
+        border-radius: 10px;
+        background-color: var(--bodyColor);
+        padding-left: 20px;
+        height: 56px;
+        border: none;
+        outline: none;
+      }
+      label {
+        font-style: normal;
+        font-weight: 450;
+        font-size: 14px;
+        line-height: 18px;
+        color: var(--textColor);
+      }
+    }
+    .textArea {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      width: 100%;
+      textarea {
+        width: 100%;
+        border-radius: 10px;
+        background-color: var(--bodyColor);
+        padding-left: 20px;
+        height: 100px;
+        border: none;
+        outline: none;
+      }
+    }
+    button {
+      color: var(--white);
+      background-color: var(--green);
+      border-radius: 30px;
+      width: 125px;
+      height: 48px;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 24px;
+      margin-top: 40px;
+      border: none;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .form_container .form_card .inp {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .form_container .form_card .inp {
+    width: 100%;
+  }
+  .form_container .form_card button {
+          width: 100%;
+        }
+}
+@media screen and (max-width: 500px) {
+  .form_container .form_card p {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .form_container .form_card{
+          padding: 10px;
+  }
+}

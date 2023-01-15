@@ -28,7 +28,7 @@
     <header>
       <nav class="navbar navbar-expand-lg ">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="index.html">
               <img src="image/Qsmart.png" alt="">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,7 +37,7 @@
           <div class="collapse navbar-collapse " id="navbarSupportedContent">
             <ul class="navbar-nav mb-2 ">
               <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <a class="nav-link dropdown-toggle active" href="index.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Platform
                   </a>
                   <ul class="dropdown-menu">
@@ -46,17 +46,33 @@
                     <li><a class="dropdown-item" href="Forecasting.html">Forecasting</a></li>
                   </ul>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="#">Solutions</a>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="Solutions.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Solutions
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="Solutions.html#sales">Sales</a></li>
+                    <li><a class="dropdown-item" href="Solutions.html#marketing">Marketing</a></li>
+                    <li><a class="dropdown-item" href="Solutions.html#education">Education</a></li>
+                    <li><a class="dropdown-item" href="Solutions.html#finance">Finance</a></li>
+                    <li><a class="dropdown-item" href="Solutions.html#socialMedia">Social Media</a></li>
+                    <li><a class="dropdown-item" href="Solutions.html#procurement">Procurement and Logistics</a></li>
+
+
+
+                  </ul>
                 </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Resources
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                  <li><a class="dropdown-item" href="FAQ.html">Fag</a></li>
+                  <li><a class="dropdown-item" href="VideoDemo.html">Video Demos</a></li>
+                  <li><a class="dropdown-item" href="Examples.html">Examples</a></li>
+                  <li><a class="dropdown-item" href="Support.html">Support</a></li>
+
                 </ul>
               </li>
               <li class="nav-item dropdown">
@@ -64,21 +80,19 @@
                       About us
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li><a class="dropdown-item" href="Contact.html">Contact</a></li>
                   </ul>
                 </li>
             </ul>
             <form class="d-flex headBtns" role="search">
-              <button class="headBtn1"  type="submit">Log in</button>
+              <button class="headBtn1"  type="submit"><a href="login.html">Log in</a></button>
               <button  class="headBtn2"  type="submit">Analyze Now</button>
             </form>
           </div>
         </div>
       </nav>
       <div class="window_location">
-        <h4>Home page / <span>Solutions</span></h4>
+        <h4><a href="index.html">Home page</a> / <span>Solutions</span></h4>
       </div>
       <div class="header_body_analytics">
         <div class="header_text">
@@ -107,7 +121,7 @@
     
     <section>
       <div class="solution_container">
-        <div class="solutions_card">
+        <div class="solutions_card" id="sales">
           <div class="text">
             <h2>Sales</h2>
             <p>
@@ -132,7 +146,7 @@
           </div>
           <img src="image/SolutionImage.png" alt="" />
         </div>
-        <div class="solutions_card">
+        <div class="solutions_card" id="marketing">
           <div class="text">
             <h2>Marketing</h2>
             <p>
@@ -157,7 +171,7 @@
           </div>
           <img src="image/SolutionImage.png" alt="" />
         </div>
-        <div class="solutions_card">
+        <div class="solutions_card" id="education">
           <div class="text">
             <h2>Education</h2>
             <p>
@@ -182,7 +196,7 @@
           </div>
           <img src="image/SolutionImage.png" alt="" />
         </div>
-        <div class="solutions_card">
+        <div class="solutions_card" id="finance">
           <div class="text">
             <h2>Finance </h2>
             <p>
@@ -207,7 +221,7 @@
           </div>
           <img src="image/SolutionImage.png" alt="" />
         </div>
-        <div class="solutions_card">
+        <div class="solutions_card" id="socialMedia">
           <div class="text">
             <h2>Sosial Media </h2>
             <p>
@@ -232,7 +246,7 @@
           </div>
           <img src="image/SolutionImage.png" alt="" />
         </div>
-        <div class="solutions_card">
+        <div class="solutions_card" id="procurement">
           <div class="text">
             <h2>Procurement and logistics</h2>
             <p>
@@ -262,65 +276,65 @@
 
     <footer>
       <div class="footer_about">
-        <div class="footer_card">
-          <img src="image/Qsmart.png" alt="" />
-          <p>
-            Duis lorem pulvinar faucibus turpis leo sit sapien. Integer nunc
-            consequat duis massa pharetra
-          </p>
-        </div>
-        <div class="footer_card">
-          <h3>Platform</h3>
-          <ul>
-            <li><a href="">Analytics Dashboard</a></li>
-            <li><a href="">Graph & Chart</a></li>
-            <li><a href="">Forecasting</a></li>
-          </ul>
-        </div>
-        <div class="footer_card">
-          <h3>Solutions</h3>
-          <ul>
-            <li><a href="">Sales</a></li>
-            <li><a href="">Marketing</a></li>
-            <li><a href="">Education</a></li>
-            <li><a href="">Finance </a></li>
-            <li><a href="">Sosial Media</a></li>
-            <li><a href="">Procurement and logistics </a></li>
-          </ul>
-        </div>
-        <div class="footer_card">
-          <h3>Resources</h3>
-          <ul>
-            <li><a href="">Blog</a></li>
-            <li><a href="">FAQ</a></li>
-            <li><a href="">Video Demos</a></li>
-            <li><a href="">Examples </a></li>
-            <li><a href="">Support </a></li>
-          </ul>
-        </div>
-        <div class="footer_card">
-          <h3>About us</h3>
-          <ul>
-            <li><a href="">T: +994 77 445 33 45</a></li>
-            <li><a href="">M: info@qsmart.az</a></li>
-          </ul>
-        </div>
-        <div class="footer_card">
-          <h3>Follow Us</h3>
-          <ul>
-            <li><a href="">Facebook</a></li>
-            <li><a href="">Instagram</a></li>
-            <li><a href="">Twitter</a></li>
-          </ul>
-        </div>
+                <div class="footer_card fc1">
+                        <img src="image/Qsmart.png" alt="">  
+                        <p>Duis lorem pulvinar faucibus turpis leo sit sapien. Integer nunc consequat duis massa pharetra</p>
+                </div>
+                <div class="container2">
+                <div class="footer_card">
+                          <h3>Platform</h3>
+                          <ul>
+                                    <li><a href="">Analytics Dashboard</a></li>
+                                    <li><a href="">Graph & Chart</a></li>
+                                    <li><a href="">Forecasting</a></li>
+                          </ul>
+                </div>
+                <div class="footer_card">
+                          <h3>Solutions</h3>
+                          <ul>
+                                    <li><a href="">Sales</a></li>
+                                    <li><a href="">Marketing</a></li>
+                                    <li><a href="">Education</a></li>
+                                    <li><a href="">Finance </a></li>
+                                    <li><a href="">Sosial Media</a></li>
+                                    <li><a href="">Procurement and logistics
+                                    </a></li>
+
+                          </ul>
+                </div>
+                <div class="footer_card">
+                          <h3>Resources</h3>
+                          <ul>
+                                    <li><a href="">Blog</a></li>
+                                    <li><a href="">FAQ</a></li>
+                                    <li><a href="">Video Demos</a></li>
+                                    <li><a href="">Examples </a></li>
+                                    <li><a href="">Support </a></li>
+
+                          </ul>
+                </div>
+                <div class="footer_card">
+                          <h3>About us</h3>
+                          <ul>
+                                    <li><a href="">T: +994 77 445 33 45</a></li>
+                                    <li><a href="">M: info@qsmart.az</a></li>
+                                    
+                          </ul>
+                </div>
+                <div class="footer_card">
+                          <h3>Follow Us</h3>
+                          <ul>
+                                    <li><a href="">Facebook</a></li>
+                                    <li><a href="">Instagram</a></li>
+                                    <li><a href="">Twitter</a></li>
+                          </ul>
+                </div>
+              </div>
       </div>
       <div class="footer_food">
-        <p>
-          © 2022 Envato Elements Pty Ltd. Trademarks and brands are the property
-          of their respective owners.
-        </p>
+               <p>© 2022 Envato Elements Pty Ltd. Trademarks and brands are the property of their respective owners.</p> 
       </div>
-    </footer>
+</footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>

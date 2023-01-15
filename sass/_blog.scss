@@ -1,0 +1,394 @@
+.blog_header {
+  border-top: 2px solid var(--green);
+  margin: 40px;
+  h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 20px;
+    margin-bottom: 53px;
+    color: var(--green);
+  }
+  .blog_body {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    .text {
+      background-color: white;
+      .text_top {
+        margin-bottom: 23px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        button:nth-child(1) {
+          width: 88px;
+          height: 30px;
+          background: none;
+          border: 1px solid var(--green);
+          border-radius: 20px;
+          font-style: normal;
+          font-weight: 450;
+          font-size: 12px;
+          line-height: 14px;
+        }
+        button:nth-child(2) {
+          border: none;
+          background: none;
+        }
+      }
+      h1 {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 56px;
+        line-height: 60px;
+        color: var(--green);
+        max-width: 660px;
+        margin-bottom: 20px;
+      }
+      p {
+        font-style: normal;
+        font-weight: 450;
+        font-size: 16px;
+        line-height: 20px;
+        color: var(--textColor);
+        max-width: 660px;
+        margin-bottom: 58px;
+      }
+      .text_bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-style: normal;
+        font-weight: 450;
+        font-size: 12px;
+        line-height: 14px;
+        color: var(--gray);
+        p {
+          width: 164px;
+          margin: 0;
+          span {
+            padding-top: 5px;
+          }
+        }
+        button {
+          border: none;
+          background: none;
+          span {
+            margin-right: 9px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.blogSection1 {
+  margin: 120px 40px;
+  h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    color: var(--textColor);
+    margin-bottom: 30px;
+  }
+  .sisenseContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    .card1 {
+      display: flex;
+      gap: 20px;
+      justify-content: space-between;
+    }
+    .sameCard {
+      min-width: 325px;
+    }
+    .card_img {
+      background-image: url("../image/sisenseImage.png");
+      background-size: cover;
+    }
+    .sisenseCard {
+      height: 325px;
+      border-radius: 10px;
+      background-color: var(--white);
+      padding: 20px;
+      position: relative;
+
+      .card_bottom {
+        position: absolute;
+        bottom: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 87%;
+        left: 20px;
+        p {
+          font-style: normal;
+          font-weight: 450;
+          font-size: 12px;
+          line-height: 14px;
+          width: 98px;
+        }
+        button {
+          border: none;
+          background: none;
+        }
+      }
+      .card_head {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        button:nth-child(1) {
+          width: 88px;
+          height: 30px;
+          background: none;
+          border: 1px solid var(--green);
+          border-radius: 20px;
+          font-style: normal;
+          font-weight: 450;
+          font-size: 12px;
+          line-height: 14px;
+        }
+        button:nth-child(2) {
+          border: none;
+          background: none;
+        }
+      }
+      h3 {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: var(--green);
+        margin-bottom: 10px;
+      }
+      p {
+        font-style: normal;
+        font-weight: 450;
+        font-size: 14px;
+        line-height: 18px;
+        color: var(--textColor);
+      }
+    }
+    .diffretCard {
+      min-width: 670px;
+    }
+  }
+}
+
+.blogSec2 {
+  padding: 70px 40px;
+  background-color: var(--white);
+  h2 {
+    margin-bottom: 30px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    color: var(--textColor);
+  }
+  .blog2Container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    .blogCard {
+      width: 30%;
+      background-color: var(--bodyColor);
+      img {
+        width: 100%;
+      }
+      .text {
+        padding: 20px;
+        .card_text_head {
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 10px;
+          align-items: center;
+          button:nth-child(1) {
+            border: 1px solid var(--green);
+            border-radius: 20px;
+            background: none;
+            color: var(--green);
+            width: 88px;
+            height: 30px;
+            font-style: normal;
+            font-weight: 450;
+            font-size: 12px;
+            line-height: 14px;
+          }
+          button:nth-child(2) {
+            border: none;
+            background: none;
+          }
+        }
+        h3 {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 24px;
+          color: var(--textColor);
+          margin-bottom: 10px;
+        }
+        p {
+          font-style: normal;
+          font-weight: 450;
+          font-size: 14px;
+          line-height: 18px;
+          color: var(--textColor);
+          margin-bottom: 36px;
+        }
+        .card_text_bottom {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          button {
+            border: none;
+            background: none;
+          }
+          p {
+            width: 96px;
+            font-style: normal;
+            margin: 0;
+            font-weight: 450;
+            font-size: 12px;
+            line-height: 14px;
+            color: var(--gray);
+            span {
+              padding-bottom: 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1136px) {
+  .blog_header {
+    .blog_body {
+      img {
+        width: 500px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 950px) {
+  .blog_header {
+    .blog_body {
+      .text {
+        h1 {
+          font-size: 30px;
+          line-height: 30px;
+        }
+        p {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 800px) {
+  .blog_header {
+    margin: 10px;
+    h2 {
+      font-size: 24px;
+    }
+    .blog_body {
+      flex-direction: column;
+      justify-content: start;
+      align-items: flex-start;
+      img {
+        width: 100%;
+      }
+      .text {
+        width: 100%;
+        .text_top {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          margin-bottom: 16px;
+        }
+        h1 {
+          font-size: 24px;
+          line-height: 28px;
+          margin-bottom: 10px;
+        }
+        p {
+          font-size: 14px;
+          line-height: 18px;
+          margin-bottom: 16px;
+        }
+        .text_bottom {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          p {
+            font-size: 12px;
+            line-height: 14px;
+            width: 98px;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1423px) {
+  .blogSection1 .sisenseContainer .diffretCard {
+    min-width: 325px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .sisenseContainer {
+    position: relative;
+    overflow-x: auto;
+    flex-direction: row !important;
+    padding-bottom: 20px;
+    .card_img {
+      background: white !important;
+    }
+  }
+  .blogSection1 {
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 500px) {
+  .blogSection1 {
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width: 1300px) {
+ .blogSec2 .blog2Container{
+  .blogCard{
+    width: 440px;
+  }
+ }
+}
+@media screen and (max-width: 500px) {
+  .blogSec2{
+    padding: 40px 16px;
+    h2{
+      font-size: 24px;
+    }
+    .blog2Container{
+      .blogCard{
+        width: 100%;
+        border: 2px solid var(--green);
+        border-radius:10px ;
+        .text{
+          p{
+            display: none;
+          }
+          .card_text_bottom p{
+            display: block;
+          }
+        }
+       
+      }
+     }
+    }
+  } 
+ 

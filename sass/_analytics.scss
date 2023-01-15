@@ -1,14 +1,27 @@
 header {
   .window_location {
-    height: 5vh;
-    padding-top: 15px;
+    height: 50px;
+    background-color: white;
     padding-left: 40px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    top: 14vh;
     h4 {
       font-style: normal;
       font-weight: 450;
       font-size: 14px;
       line-height: 18px;
       color: var(--textColor);
+      a {
+        font-weight: 450;
+        font-size: 14px;
+        line-height: 18px;
+        color: var(--textColor);
+        text-decoration: none;
+      }
       span {
         color: var(--green);
       }
@@ -22,11 +35,11 @@ header {
     padding: 0 40px;
     align-items: center;
     gap: 71px;
-    img{
-          max-width: 670px;
+    img {
+      max-width: 670px;
     }
     .header_text {
-          color: white;
+      color: white;
       h1 {
         max-width: 619px;
         font-style: normal;
@@ -34,6 +47,7 @@ header {
         font-size: 56px;
         line-height: 60px;
         margin-bottom: 20px;
+        margin-top: 70px;
       }
       p {
         font-style: normal;
@@ -77,51 +91,51 @@ header {
   }
 }
 
-@media screen and (max-width:1150px){
-  .header_body_analytics{
-    h1{
+@media screen and (max-width: 1150px) {
+  .header_body_analytics {
+    h1 {
       font-size: 36px;
     }
-    p{
+    p {
       font-size: 18px;
     }
-    img{
+    img {
       width: 500px;
     }
   }
 }
-@media screen and (max-width:900px){
+@media screen and (max-width: 900px) {
   .header_body_analytics {
-  flex-direction: column;
+    flex-direction: column;
     justify-content: center !important;
-    img{
-          max-width: 670px;
+    img {
+      max-width: 670px;
     }
   }
 }
-@media screen and (max-width:505px){
+@media screen and (max-width: 505px) {
   .header_body_analytics {
     padding: 0px !important;
     gap: 30px !important;
-    img{
-         width: 100%;
+    img {
+      width: 100%;
     }
-    button{
+    button {
       display: none;
     }
-    .header_text{
-      h1{
+    .header_text {
+      h1 {
         font-size: 36px;
         width: 100%;
       }
-      p{
+      p {
         font-size: 18px;
         width: 100%;
       }
     }
   }
-  .analytics_skill{
-    h2{
+  .analytics_skill {
+    h2 {
       font-size: 20px;
     }
   }
