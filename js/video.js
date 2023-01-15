@@ -1,15 +1,22 @@
-const videOpenBtn = document.querySelectorAll(".videOpenBtn")
-const videoOpen = document.querySelectorAll(".videoOpen")
-const exitVideo = document.querySelectorAll(".exitVideo")
+const videOpenBtn = document.querySelectorAll(".videOpenBtn");
+const videoOpen = document.querySelectorAll(".videoOpen");
+const exitVideo = document.querySelectorAll(".exitVideo");
 
-console.log(videOpenBtn);
-console.log(videoOpen);
+const shareOpenBtn = document.querySelectorAll(".shareOpenBtn");
+const shareArea = document.querySelectorAll(".shareArea");
+const shareExit = document.querySelectorAll(".shareExitBtn");
 
-for (let i = 0; i < videOpenBtn.length; i++) {
-    videOpenBtn[i].addEventListener('click', () => {
-        videoOpen[i].style.display = 'block'
-    })
-    exitVideo[i].addEventListener('click', () => {
-        videoOpen[i].style.display = 'none'
-    })
+function OpenBox(clickBtn, openBox, exitBtn) {
+  for (let i = 0; i < clickBtn.length; i++) {
+    clickBtn[i].addEventListener("click", () => {
+      openBox[i].style.display = "block";
+    });
+    exitBtn[i].addEventListener("click", () => {
+      openBox[i].style.display = "none";
+    });
+  }
 }
+
+OpenBox(videOpenBtn, videoOpen, exitVideo);
+OpenBox(shareOpenBtn, shareArea, shareExit);
+

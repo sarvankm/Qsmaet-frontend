@@ -43,6 +43,11 @@ header nav {
   height: 13vh;
 }
 
+header nav .navbar-toggler {
+  border: none;
+  outline: none;
+}
+
 header nav .container-fluid {
   background-color: white;
 }
@@ -2706,7 +2711,7 @@ header .header_body_analytics .header_text button {
   top: 20px;
   right: 40px;
   font-size: 60px;
-  color: var(--green);
+  color: var(--white);
   background: none;
   border: none;
 }
@@ -2754,6 +2759,7 @@ header .header_body_analytics .header_text button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: relative;
 }
 
 .videoSection .videoContainer .videoCard .videoText .textHead button:nth-child(1) {
@@ -2772,6 +2778,67 @@ header .header_body_analytics .header_text button {
 .videoSection .videoContainer .videoCard .videoText .textHead button:nth-child(2) {
   border: none;
   background: none;
+}
+
+.videoSection .videoContainer .videoCard .videoText .textHead .shareArea {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 3;
+  width: 180px;
+  height: 203px;
+  border: 1px solid var(--green);
+  -webkit-box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  background-color: var(--white);
+}
+
+.videoSection .videoContainer .videoCard .videoText .textHead .shareArea .shareHead {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 16px;
+  border-bottom: 1px solid var(--green);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.videoSection .videoContainer .videoCard .videoText .textHead .shareArea .shareHead h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--textColor);
+}
+
+.videoSection .videoContainer .videoCard .videoText .textHead .shareArea .shareHead button {
+  border: none;
+  background: none;
+  margin: 0;
+  padding: 0;
+}
+
+.videoSection .videoContainer .videoCard .videoText .textHead .shareArea ul {
+  list-style: none;
+  padding: 15px 16px;
+}
+
+.videoSection .videoContainer .videoCard .videoText .textHead .shareArea ul li {
+  margin-bottom: 5px;
+}
+
+.videoSection .videoContainer .videoCard .videoText .textHead .shareArea ul li a {
+  font-style: normal;
+  font-weight: 450;
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--gray);
 }
 
 .videoSection .moreBtn {
@@ -2885,6 +2952,23 @@ header .header_body_analytics .header_text button {
 }
 
 .forgetContainer .fotgetAbout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.forgetContainer .fotgetAbout form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
